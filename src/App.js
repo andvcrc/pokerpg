@@ -11,7 +11,7 @@ function App() {
         className="container text-center"
         style={{
           width: "100vw",
-          height: "100vh",
+          minHeight: "100vh",
           margin: "0px",
           padding: "0px",
         }}
@@ -20,7 +20,7 @@ function App() {
           className="bg-dark text-white"
           style={{
             width: "100vw",
-            height: "100vh",
+            minHeight: "100vh",
             margin: "0px",
             padding: "0px",
             display: "flex",
@@ -33,14 +33,11 @@ function App() {
             style={{
               alignItems: "center",
               justifyContent: "space-around",
-              height: "100vh",
-              width: "90%",
+              maxWidth: "90%",
               margin: "0px",
               padding: "0px",
             }}
           >
-            <Ataques />
-            <Habilidade />
             <Personagem />
           </div>
         </div>
