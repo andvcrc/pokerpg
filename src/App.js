@@ -2,6 +2,7 @@ import React from "react";
 import Ataques from "./Ataques.js";
 import Habilidade from "./Habilidade";
 import "./css/App.css";
+import Personagem from "./Personagem.js";
 
 function App() {
   return (
@@ -40,6 +41,7 @@ function App() {
           >
             <Ataques />
             <Habilidade />
+            <Personagem />
           </div>
         </div>
       </section>

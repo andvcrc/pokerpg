@@ -1,0 +1,35 @@
+[
+    {
+        "nome": "Absol",
+        "treinador": "Astaroth",
+        "nature": "Adamant",
+        "tipo": "Dark",
+        "nivel": 50,
+        "pontos_de_vida": 272,
+        "status": {
+            "saúde": 15,
+            "ataque": 36,
+            "defesa": 14,
+            "atq_esp": 4,
+            "def_esp": 16,
+            "velocidade": 17
+        },
+        "base": {
+            "saúde": 7,
+            "ataque": 13,
+            "defesa": 6,
+            "atq_esp": 8,
+            "def_esp": 6,
+            "velocidade": 8
+        },
+        "evasao": {
+            "fisica": 5,
+            "especial": 7,
+            "veloz": 7
+        },
+        "bonus_elemental": 10,
+        "ataques": ["Mordida", "Lâmina de Vento", "Retalhar", "Cabeçada Zen", "Dança das Espadas", "Corte Psíquico", "Multiplicar", "Emboscada"],
+        "habilidades": ["Sorte", "Pressão"],
+        "caracteristicas": ["Aura", "Faro", "Silêncio"]
+    }
+]

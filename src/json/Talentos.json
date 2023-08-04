@@ -1,0 +1,268 @@
+[
+  {
+    "jogador": [
+      {
+        "nome": "",
+        "requisitos": "",
+        "frequencia": "",
+        "gatilho": "",
+        "efeito": ""
+      },
+      {
+        "nome": "",
+        "requisitos": "",
+        "frequencia": "",
+        "gatilho": "",
+        "efeito": ""
+      }
+    ]
+  },
+  {
+    "artista": [
+      {
+        "nome": "",
+        "requisitos": "",
+        "frequencia": "",
+        "gatilho": "",
+        "efeito": ""
+      },
+      {
+        "nome": "",
+        "requisitos": "",
+        "frequencia": "",
+        "gatilho": "",
+        "efeito": ""
+      }
+    ],
+    "subclasse": {
+      "cativante": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "coreografo": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "descolado": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "estilista": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "nerd": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "parrudo": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ]
+    }
+  },
+  {
+    "captor": [
+      {
+        "nome": "",
+        "requisitos": "",
+        "frequencia": "",
+        "gatilho": "",
+        "efeito": ""
+      },
+      {
+        "nome": "",
+        "requisitos": "",
+        "frequencia": "",
+        "gatilho": "",
+        "efeito": ""
+      }
+    ],
+    "subclasse": {
+      "artifice": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "colecionador": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "domador": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "engenheiro": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "ladrao": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "malabarista": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ],
+      "pokebolista": [
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        },
+        {
+          "nome": "",
+          "requisitos": "",
+          "frequencia": "",
+          "gatilho": "",
+          "efeito": ""
+        }
+      ]
+    }
+  }
+]

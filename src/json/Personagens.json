@@ -1,0 +1,92 @@
+[
+  {
+    "nome": "Astaroth",
+    "jogador": "André",
+    "n_reg_pokedex": 64,
+    "alinhamento": "Leal e Mau",
+    "classe": ["Treinador", "Lutador"],
+    "nivel": 7,
+    "titulo_ou_afiliacao": null,
+    "status": {
+      "saude": 11,
+      "ataque": 17,
+      "defesa": 10,
+      "ataque_especial": 16,
+      "defesa_especial": 9,
+      "velocidade": 10
+    },
+    "pontos_de_vida": 72,
+    "dano_de_armas": null,
+    "evasao": {
+      "fisica": 2,
+      "especial": 1,
+      "veloz": 2
+    },
+    "deslocamentos": {
+      "terrestre": 5,
+      "escavacao": 0,
+      "natacao": 4,
+      "subaquatico": 3,
+      "voo": 0
+    },
+    "pericias": ["História", "Investigação", "Manha"],
+    "talentos": [
+      "Armas",
+      "Pokedex",
+      "Ataques Aprimorados",
+      "Treinamento Aprimorado",
+      "Dê Tudo de Si!",
+      "Rotina de Exercícios",
+      "Exercício Brutal",
+      "Crítica Construtiva",
+      "Ataques Aprimorados +",
+      "Já Ouvi Falar!",
+      "Galera Vê Só",
+      "Rotina de Exercícios"
+    ],
+    "pokemons": [
+      {
+        "nome": "Absol",
+        "treinador": "Astaroth",
+        "nature": "Adamant",
+        "tipo": "Dark",
+        "nivel": 50,
+        "pontos_de_vida": 272,
+        "status": {
+          "saude": 15,
+          "ataque": 36,
+          "defesa": 14,
+          "atq_esp": 4,
+          "def_esp": 16,
+          "velocidade": 17
+        },
+        "base": {
+          "saude": 7,
+          "ataque": 13,
+          "defesa": 6,
+          "atq_esp": 8,
+          "def_esp": 6,
+          "velocidade": 8
+        },
+        "evasao": {
+          "fisica": 5,
+          "especial": 7,
+          "veloz": 7
+        },
+        "bonus_elemental": 10,
+        "ataques": [
+          "Mordida",
+          "Lâmina de Vento",
+          "Retalhar",
+          "Cabeçada Zen",
+          "Dança das Espadas",
+          "Corte Psíquico",
+          "Multiplicar",
+          "Emboscada"
+        ],
+        "habilidades": ["Sorte", "Pressão"],
+        "caracteristicas": ["Aura", "Faro", "Silêncio"]
+      }
+    ]
+  }
+]

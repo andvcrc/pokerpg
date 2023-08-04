@@ -15,7 +15,7 @@ const Habilidade = () => {
       <div className="card-body">
         <h2 className="card-title">Habilidades</h2>
         <select
-          id="dabilidades"
+          id="habilidades"
           value={habilidade}
           onChange={handleChange}
           style={{ width: "200px" }}
