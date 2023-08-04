@@ -1,0 +1,21 @@
+import React from "react";
+import Ataques from "./Ataques.js";
+import Habilidade from "./Habilidade";
+import "./css/App.css";
+
+function App() {
+  return (
+    <>
+      <section className="container text-center" style={{"width": "100vw", "height": "100vh", "margin": "0px", "padding": "0px"}}>
+        <div className="bg-dark text-white" style={{"width": "100vw", "height": "100vh", "margin": "0px", "padding": "0px"}}>
+          <div className="row" style={{"alignItems": "center", "justifyContent": "center", "height": "100vh", "margin": "0px", "padding": "0px"}}>
+            <Ataques />
+            <Habilidade />
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default App;
