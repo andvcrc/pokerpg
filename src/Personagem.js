@@ -19,7 +19,7 @@ const Personagem = () => {
   return (
     <div className="card" style={{ maxWidth: "36rem" }}>
       <div className="card-body">
-        <h2 className="card-title">Personagem</h2>
+        <h5 className="card-title">Personagem:</h5>
         <select
           id="personagem"
           value={personagem}
@@ -39,16 +39,16 @@ const Personagem = () => {
         </select>
         {dataFilter && (
           <>
-            <p>Nome: {dataFilter[0].nome}</p>
-            <p>Nível: {dataFilter[0].nivel}</p>
-            <p>
-              Classe:{" "}
+            <h2 style={{marginTop: "20px"}}>{dataFilter[0].nome}</h2>
+            <h6>Nível: {dataFilter[0].nivel}</h6>
+            <h6>
+              Classe(s):{" "}
               {dataFilter[0].classe.map((el) => {
                 return <span key={el}> {el}</span>;
               })}
-            </p>
+            </h6>
 
-            <p style={{ textAlign: "justify" }}>
+            <p style={{ textAlign: "justify", marginTop:"20px" }}>
               Talentos:{" "}
               {dataFilter[0].talentos.map((el) => {
                 return (
