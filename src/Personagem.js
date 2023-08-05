@@ -1,20 +1,22 @@
 import React from "react";
 import data from "./json/Personagens.json";
 import Pokemon from "./Pokemon";
+import Select from "react-select";
 
 const Personagem = () => {
   const [personagem, setPersonagem] = React.useState("");
   const [dataFilter, setDataFilter] = React.useState(null);
-  const [poke, setPoke] = React.useState("");
+  const [poke, setPoke] = React.useState(null);
 
   function handleChange({ target }) {
     setPersonagem(target.value);
     setDataFilter(data.filter((element) => element.nome === target.value));
   }
 
-  function handlePokemon({ target }) {
+  function handlePokemon({target}) {
     setPoke(dataFilter[0].pokemons.filter((el) => el.nome === target.value));
   }
+
 
   return (
     <div className="card" style={{ maxWidth: "36rem" }}>
@@ -37,9 +39,10 @@ const Personagem = () => {
             );
           })}
         </select>
+
         {dataFilter && (
           <>
-            <h2 style={{marginTop: "20px"}}>{dataFilter[0].nome}</h2>
+            <h2 style={{ marginTop: "20px" }}>{dataFilter[0].nome}</h2>
             <h6>Nível: {dataFilter[0].nivel}</h6>
             <h6>
               Classe(s):{" "}
@@ -47,8 +50,7 @@ const Personagem = () => {
                 return <span key={el}> {el}</span>;
               })}
             </h6>
-
-            <p style={{ textAlign: "justify", marginTop:"20px" }}>
+            <p style={{ textAlign: "justify", marginTop: "20px" }}>
               Talentos:{" "}
               {dataFilter[0].talentos.map((el) => {
                 return (
@@ -60,28 +62,30 @@ const Personagem = () => {
                 );
               })}
             </p>
-
             <>
               <h3>POKEMONS</h3>
-
               <select
                 id="poke"
-                value={poke}
+                value={poke !== null ? poke.nome : ""}
                 onChange={handlePokemon}
-                style={{ width: "200px", marginTop:"25px" }}
+                style={{ width: "200px", marginTop: "25px" }}
               >
                 <option value="" disabled>
                   Selecione
                 </option>
                 {dataFilter[0].pokemons.map((el) => {
                   return (
-                    <option key={el.nome} value={el.nome}>
-                      {el.nome}
+                    <>
+                    <option key={el.nome} label={el.nome} value={el.nome}>
                     </option>
+                    </>
                   );
                 })}
               </select>
-              <div style={{marginTop:"30px"}}>{poke !== "" && <Pokemon pokemon={poke[0]} />}</div>
+
+              <div style={{ marginTop: "30px" }}>
+                {poke !== null && <Pokemon pokemon={poke[0]} />}
+              </div>
             </>
           </>
         )}

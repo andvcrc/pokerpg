@@ -4,6 +4,7 @@ import Collapse from "react-bootstrap/Collapse";
 
 const BotaoHabilidade = ({ habilidade }) => {
   const [open, setOpen] = React.useState(false);
+  console.log(habilidade)
   return (
     <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", marginBottom:"5px"}}>
       <Button

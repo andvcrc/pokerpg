@@ -5,15 +5,29 @@ import BotaoHabilidade from "./BotaoHabilidade";
 import habilidadesData from "./json/Habilidades.json";
 
 const Pokemon = ({ pokemon }) => {
+
+
+  const [imagem, setImagem] = React.useState(null)
+
+  async function imageSet() {
+    const responseDados = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.nome.toLowerCase()}`)
+    const json = await responseDados.json()
+    setImagem(json)
+  }
+
+  imageSet();
+
   if (pokemon === "") return;
   return (
     <>
       <h1>{pokemon.nome}</h1>
       <div className="row" style={{ justifyContent: "center", marginTop: "20px"  }}>
         <>Nature: {pokemon.nature}</>
-        <> | Tipo: {pokemon.tipo}</>
+        <> | Tipo: {pokemon.tipo.map(el => <>{el} </>)}</>
         <> | Nível: {pokemon.nivel}</>
       </div>
+
+      {imagem && <img src={imagem.sprites.other.home.front_default} alt='img' width={'475px'} height={'475px'} />}
 
       <h4>Pontos de Vida: {pokemon.pontos_de_vida}</h4>
       <div className="row" style={{ justifyContent: "center", marginTop: "20px"  }}>
@@ -33,7 +47,7 @@ const Pokemon = ({ pokemon }) => {
         <> | Especial: {pokemon.evasao.especial}</>
         <> | Veloz: {pokemon.evasao.veloz}</>
       </div>
-      <>Bônus Elemental: {pokemon.bonus_elemental}</>
+      <>Bônus Elemental: {parseInt(pokemon.nivel/5)}</>
 
       <div className="row" style={{ marginTop: "20px" }}>
         <h4>Habilidades</h4>
