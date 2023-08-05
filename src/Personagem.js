@@ -19,7 +19,7 @@ const Personagem = () => {
 
 
   return (
-    <div className="card" style={{ maxWidth: "36rem", backgroundColor:"#212121", color:"white", marginTop:"20px", marginBottom:"20px" }}>
+    <div className="card" style={{ maxWidth: "36rem", backgroundColor:"#121212", color:"white", marginTop:"20px", marginBottom:"20px" }}>
       <div className="card-body">
         <h5 className="card-title">Personagem:</h5>
         <select
@@ -68,7 +68,7 @@ const Personagem = () => {
                 id="poke"
                 value={poke !== null ? poke.nome : ""}
                 onChange={handlePokemon}
-                style={{ width: "200px", marginTop: "25px", backgroundColor:"#212121", color:"white" }}
+                style={{ width: "200px", marginTop: "25px", backgroundColor:"#121212", color:"white" }}
               >
                 <option value="" disabled>
                   Selecione
