@@ -10,8 +10,8 @@ function App() {
       <section
         className="container text-center"
         style={{
-          width: "100vw",
           minHeight: "100vh",
+          maxWidth: "100vw",
           margin: "0px",
           padding: "0px",
         }}
@@ -19,7 +19,7 @@ function App() {
         <div
           className="bg-dark text-white"
           style={{
-            width: "100vw",
+            maxWidth: "100vw",
             minHeight: "100vh",
             margin: "0px",
             padding: "0px",
