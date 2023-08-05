@@ -27,7 +27,7 @@ const Pokemon = ({ pokemon }) => {
         <> | Nível: {pokemon.nivel}</>
       </div>
 
-      {imagem && <img src={imagem.sprites.other.home.front_default} alt='img' width={'475px'} height={'475px'} />}
+      {imagem && <img src={imagem.sprites.other.home.front_default} alt='img' width={"100%"} height={"100%"} />}
 
       <h4>Pontos de Vida: {pokemon.pontos_de_vida}</h4>
       <div className="row" style={{ justifyContent: "center", marginTop: "20px"  }}>
