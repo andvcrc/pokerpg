@@ -4170,7 +4170,7 @@
   },
   {
     "nome": "Lançamento",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "2d12+5",
@@ -4236,7 +4236,7 @@
   },
   {
     "nome": "Lembrança",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "Automática",
     "dano": null,
@@ -4412,7 +4412,7 @@
   },
   {
     "nome": "Mastigada",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "3d10+12",
@@ -4551,7 +4551,7 @@
     "basal": null,
     "alcance": "Si",
     "frequencia": "À Vontade",
-    "descricao": "Os Golpes Psíquicos do usuário agora podem acertar e afetar pokémons de Trevas normalmente. Além disso, o usuário não é afetado por efeitos que exigem um resultado mínimo no Teste de Acurácia para funcionar. Alvos nãopodem usar suas Evasões de Velocidade contra os Golpes do usuário, mas ainda podem usar suas Evasões de Defesa e de Defesa Especial. Finalmente, o usuário pode diferenciaro ativador de Multiplicar das cópias."
+    "descricao": "Os Golpes Psíquicos do usuário agora podem acertar e afetar pokémons de Dark normalmente. Além disso, o usuário não é afetado por efeitos que exigem um resultado mínimo no Teste de Acurácia para funcionar. Alvos nãopodem usar suas Evasões de Velocidade contra os Golpes do usuário, mas ainda podem usar suas Evasões de Defesa e de Defesa Especial. Finalmente, o usuário pode diferenciaro ativador de Multiplicar das cópias."
   },
   {
     "nome": "Mímica",
@@ -4709,7 +4709,7 @@
   },
   {
     "nome": "Nocaute",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "3d8+10",
@@ -4764,7 +4764,7 @@
   },
   {
     "nome": "Ofuscação",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "3d12+14",
@@ -5006,7 +5006,7 @@
   },
   {
     "nome": "Pelas Costas",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": "Interrupção",
     "acuracia": "2",
     "dano": "3d10+12",
@@ -5039,7 +5039,7 @@
   },
   {
     "nome": "Perseguição",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": "Interrupção",
     "acuracia": "2",
     "dano": "1d12+6",
@@ -5233,7 +5233,7 @@
     "basal": "Especial",
     "alcance": "Si",
     "frequencia": "Rodada Sim Rodada Não",
-    "descricao": "Quando um pokémon aprende seu Poder Oculto, role 1d4 para definir o Dano Basal do Poder Oculto: 1 1d12+6; 2 2d8+6; 3 2d10+8; 4 3d8+10.Além disso, quando um pokémon aprende seu Poder Oculto, role 1d20 para definir o Tipo do Poder Oculto. O Tipo definido será o Tipo do Golpe no lugar do Tipo Normal, de modo que o dano causado será do Tipo definido.Resultado da Rolagem de 1d20Tipo do Poder Oculto1 Água2 Dragão3 Elétrico4 Fada5 Fantasma6 Fogo7 Gelo8 Inseto9 Lutador10 Metal11 Normal12 Pedra13 Planta14 Psíquico15 Terra16 Trevas17 Venenoso18 Voador19 ou 20 Role Novamente"
+    "descricao": "Quando um pokémon aprende seu Poder Oculto, role 1d4 para definir o Dano Basal do Poder Oculto: 1 1d12+6; 2 2d8+6; 3 2d10+8; 4 3d8+10.Além disso, quando um pokémon aprende seu Poder Oculto, role 1d20 para definir o Tipo do Poder Oculto. O Tipo definido será o Tipo do Golpe no lugar do Tipo Normal, de modo que o dano causado será do Tipo definido.Resultado da Rolagem de 1d20Tipo do Poder Oculto1 Água2 Dragão3 Elétrico4 Fada5 Fantasma6 Fogo7 Gelo8 Inseto9 Lutador10 Metal11 Normal12 Pedra13 Planta14 Psíquico15 Terra16 Dark17 Venenoso18 Voador19 ou 20 Role Novamente"
   },
   {
     "nome": "Poder Secreto",
@@ -5479,7 +5479,7 @@
   },
   {
     "nome": "Provocação",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "3",
     "dano": null,
@@ -5556,7 +5556,7 @@
   },
   {
     "nome": "Pulso Sombrio",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": "Explosão 3",
     "acuracia": "2",
     "dano": "3d10+12",
@@ -5908,7 +5908,7 @@
   },
   {
     "nome": "Retribuição",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "2d8+6",
@@ -5941,7 +5941,7 @@
   },
   {
     "nome": "Revogação",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": "Interceptação",
     "acuracia": "2",
     "dano": null,
@@ -6007,7 +6007,7 @@
   },
   {
     "nome": "Roubo",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "1d12+6",
@@ -6656,7 +6656,7 @@
   },
   {
     "nome": "Tática Suja",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "4d12+16",
@@ -6843,7 +6843,7 @@
   },
   {
     "nome": "Tormento",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": null,
@@ -6909,7 +6909,7 @@
   },
   {
     "nome": "Trapaça",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "4d12+16",
@@ -6942,7 +6942,7 @@
   },
   {
     "nome": "Troca",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": null,
@@ -7136,11 +7136,11 @@
     "basal": "Especial",
     "alcance": "Si",
     "frequencia": "Diária",
-    "descricao": "O Vácuo Dimensional ignora Barreiras e os efeitos de Levantar o Tapete. Se Hoopa estiver em sua forma não confinada, o Vácuo Dimensional se tornará de Trevas e seu Dano Basal mudará para 4d12+16 Físico, mas o fará perder uma Fase de Defesa."
+    "descricao": "O Vácuo Dimensional ignora Barreiras e os efeitos de Levantar o Tapete. Se Hoopa estiver em sua forma não confinada, o Vácuo Dimensional se tornará de Dark e seu Dano Basal mudará para 4d12+16 Físico, mas o fará perder uma Fase de Defesa."
   },
   {
     "nome": "Vazio",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": "Explosão 10",
     "acuracia": "4",
     "dano": null,
@@ -7272,7 +7272,7 @@
   },
   {
     "nome": "Vociferação",
-    "tipo": "Trevas",
+    "tipo": "Dark",
     "descritores": "Explosão 5, Som",
     "acuracia": "3",
     "dano": "2d10+8",
