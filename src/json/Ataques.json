@@ -4600,6 +4600,17 @@
   {
     "nome": "Moedor",
     "tipo": "Metal",
+    "descritores": "Saraivada 2",
+    "acuracia": "3",
+    "dano": "2d10+6",
+    "basal": "Físico",
+    "alcance": "Corpo a Corpo",
+    "frequencia": "Rodada Sim Rodada Não",
+    "descricao": null
+  },
+  {
+    "nome": "Mordida",
+    "tipo": "Dark",
     "descritores": null,
     "acuracia": "2",
     "dano": "2d10+8",
