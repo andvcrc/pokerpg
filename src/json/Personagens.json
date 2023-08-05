@@ -150,8 +150,8 @@
     ]
   },
   {
-    "nome": "Marcos Vieira",
-    "jogador": "Marcos Vieira",
+    "nome": "Jin",
+    "jogador": "Marcos",
     "n_reg_pokedex": 64,
     "alinhamento": "Leal e Mau",
     "classe": ["Treinador", "Lutador"],
@@ -196,8 +196,8 @@
     ],
     "pokemons": [
       {
-        "nome": "chupacu",
-        "treinador": "Astaroth",
+        "nome": "Weavile",
+        "treinador": "Marcos",
         "nature": "Adamant",
         "tipo": ["Dark"],
         "nivel": 51,
