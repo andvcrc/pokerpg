@@ -9,7 +9,7 @@ const BotaoHabilidade = ({ habilidade }) => {
       <Button
         onClick={() => setOpen(!open)}
         key={habilidade}
-        style={{ width: "60%", margin: "3px" }}
+        style={{ width: "90%", margin: "3px" }}
       >
         {habilidade[0].nome}
       </Button>

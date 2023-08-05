@@ -10,7 +10,7 @@ const BotaoAtaque = ({ ataque, data, pokemon }) => {
       <Button
         onClick={() => setOpen(!open)}
         key={ataque}
-        style={{ width: "60%", margin: "3px" }}
+        style={{ width: "90%", margin: "3px" }}
       >
         {ataque}
       </Button>
