@@ -9,25 +9,25 @@ const Pokemon = ({ pokemon }) => {
   return (
     <>
       <h1>{pokemon.nome}</h1>
-      <div className="row" style={{ justifyContent: "center" }}>
+      <div className="row" style={{ justifyContent: "center", marginTop: "20px"  }}>
         <>Nature: {pokemon.nature}</>
         <> | Tipo: {pokemon.tipo}</>
         <> | Nível: {pokemon.nivel}</>
       </div>
 
       <h4>Pontos de Vida: {pokemon.pontos_de_vida}</h4>
-      <div className="row" style={{ justifyContent: "center" }}>
+      <div className="row" style={{ justifyContent: "center", marginTop: "20px"  }}>
         <h4>Atributos</h4>
         <>Saúde: {pokemon.status.saude}</>
         <> | Ataque: {pokemon.status.ataque}</>
         <> | Defesa: {pokemon.status.defesa}</>
       </div>
-      <div className="row" style={{ justifyContent: "center" }}>
+      <div className="row" style={{ justifyContent: "center", marginTop: "20px"  }}>
         <>Ataque Especial: {pokemon.status.atq_esp}</>
         <> | Defesa Especial: {pokemon.status.def_esp}</>
         <> | Velocidade: {pokemon.status.velocidade}</>
       </div>
-      <div className="row" style={{ justifyContent: "center" }}>
+      <div className="row" style={{ justifyContent: "center", marginTop: "20px" }}>
         <h4>Evasões</h4>
         <>Física: {pokemon.evasao.fisica}</>
         <> | Especial: {pokemon.evasao.especial}</>
@@ -47,8 +47,8 @@ const Pokemon = ({ pokemon }) => {
         </>
       </div>
 
-      <div className="row" style={{ marginTop: "20px" }}>
-        <h3 style={{ marginBottom: "20px" }}>Ataques</h3>
+      <div className="row" style={{ marginTop: "10px" }}>
+        <h4 style={{ marginBottom: "20px" }}>Ataques</h4>
         {pokemon.ataques.map((el) => {
           const data = ataqueData.filter((element) => element.nome === el);
           return (
