@@ -17,8 +17,9 @@ function App() {
         }}
       >
         <div
-          className="bg-dark text-white"
+
           style={{
+            backgroundColor:"#212121",
             maxWidth: "100vw",
             minHeight: "100vh",
             margin: "0px",

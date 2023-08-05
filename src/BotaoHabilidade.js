@@ -8,6 +8,7 @@ const BotaoHabilidade = ({ habilidade }) => {
   return (
     <div style={{display:"flex", flexDirection:"column", alignItems:"center", justifyContent:"center", marginBottom:"5px"}}>
       <Button
+        className="btn btn-secondary"
         onClick={() => setOpen(!open)}
         key={habilidade}
         style={{ width: "90%", margin: "3px" }}
@@ -22,20 +23,20 @@ const BotaoHabilidade = ({ habilidade }) => {
 
           <div className="row">
             {habilidade[0].gatilho !== false ? (
-              <span style={{ textAlign: "center" }}>
-                Gatilho: {habilidade[0].frequencia}
-              </span>
+              <p style={{ textAlign: "center" }}>
+                <span style={{fontWeight:"bold"}}>Gatilho: </span>{habilidade[0].frequencia}
+              </p>
             ) : (
-              <h6 style={{ textAlign: "center" }}>
-                Frequência: {habilidade[0].frequencia}
-              </h6>
+              <p style={{ textAlign: "center" }}>
+                <span style={{fontWeight:"bold"}}>Frequência: </span> {habilidade[0].frequencia}
+              </p>
             )}
           </div>
 
-          <div className="row"></div>
-
-          <div className="row" style={{ textAlign: "justify" }}>
-            Efeito: {habilidade[0].efeito}
+          <div className="row">
+            <p style={{ textAlign: "center" }}>
+            <span style={{fontWeight:"bold"}}>Efeito: </span> {habilidade[0].efeito}
+            </p>
           </div>
         </div>
       </Collapse>
