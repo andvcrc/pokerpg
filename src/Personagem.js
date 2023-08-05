@@ -19,7 +19,7 @@ const Personagem = () => {
 
 
   return (
-    <div className="card" style={{ maxWidth: "36rem", backgroundColor:"#212121", color:"white" }}>
+    <div className="card" style={{ maxWidth: "36rem", backgroundColor:"#212121", color:"white", marginTop:"20px", marginBottom:"20px" }}>
       <div className="card-body">
         <h5 className="card-title">Personagem:</h5>
         <select
