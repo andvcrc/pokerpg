@@ -220,26 +220,26 @@
   },
   {
     "id": 2,
-    "nome": "Jin",
+    "nome": "Feist Falcone",
     "jogador": "Marcos",
     "n_reg_pokedex": 64,
     "alinhamento": "Leal e Mau",
-    "classe": ["Treinador", "Lutador"],
-    "nivel": 7,
+    "classe": ["Místico", "Ilusionista", "Treinador", "Elementalista"],
+    "nivel": 25,
     "titulo_ou_afiliacao": null,
     "status": {
-      "saude": 11,
-      "ataque": 17,
-      "defesa": 10,
-      "ataque_especial": 16,
-      "defesa_especial": 9,
+      "saude": 13,
+      "ataque": 16,
+      "defesa": 17,
+      "ataque_especial": 15,
+      "defesa_especial": 12,
       "velocidade": 10
     },
-    "pontos_de_vida": 72,
-    "dano_de_armas": null,
+    "pontos_de_vida": 152,
+    "dano_de_armas": "1d6+6",
     "evasao": {
-      "fisica": 2,
-      "especial": 1,
+      "fisica": 3,
+      "especial": 2,
       "veloz": 2
     },
     "deslocamentos": {
@@ -249,89 +249,169 @@
       "subaquatico": 3,
       "voo": 0
     },
-    "pericias": ["História", "Investigação", "Manha"],
+    "pericias": ["Imunidade", "Intimidação", "Concentração", "Deflexão", "Investigação", "Empatia", "Manipulação", "Furtividade"],
     "talentos": [
       "Armas",
       "Pokedex",
+      "Arma de Escolha",
+      "Dê-me Espaço",
+      "Dê Tudo de Si!",
+      "Canalizar",
+      "Permissão",
+      "Misticismo",
+      "Compartilhar Percepção",
+      "Imitação",
+      "Indiscernível",
+      "Canalizar Amigo",
       "Ataques Aprimorados",
       "Treinamento Aprimorado",
-      "Dê Tudo de Si!",
-      "Rotina de Exercícios",
-      "Exercício Brutal",
+      "Aprimorar Golpes Elementais",
+      "Treinamento Especial",
+      "Intimidar",
+      "Foco",
+      "Elementalismo",
+      "Golpe Elemental",
       "Crítica Construtiva",
-      "Ataques Aprimorados +",
-      "Já Ouvi Falar!",
-      "Galera Vê Só",
-      "Rotina de Exercícios"
+      "Mudança de Tipo",
+      "Conversão",
+      "Mórfico"
     ],
     "pokemons": [
       {
         "id": 1,
-        "nome": "Weavile",
-        "treinador": "Marcos",
+        "nome": "Sharpedo",
+        "treinador": "Feist Falcone",
         "nature": "Adamant",
-        "tipo": ["Dark"],
-        "nivel": 51,
-        "pontos_de_vida": 264,
+        "tipo": ["Dark", "Àgua"],
+        "nivel": 50,
+        "pontos_de_vida": 248,
         "status": {
-          "saude": 15,
-          "ataque": 36,
-          "defesa": 14,
-          "atq_esp": 4,
-          "def_esp": 16,
-          "velocidade": 17
+          "saude": 12,
+          "ataque": 34,
+          "defesa": 9,
+          "atq_esp": 13,
+          "def_esp": 9,
+          "velocidade": 20
         },
         "evasao": {
           "fisica": 5,
-          "especial": 7,
-          "veloz": 7
+          "especial": 5,
+          "veloz": 9
         },
         "ataques": [
-          "Mordida",
-          "Lâmina de Vento",
           "Retalhar",
-          "Cabeçada Zen",
-          "Dança das Espadas",
-          "Corte Psíquico",
-          "Multiplicar",
-          "Emboscada"
+          "Míssil Aquático",
+          "Presa de Gelo",
+          "Mastigada",
+          "Presa Venenosa",
+          null,
+          null,
+          null
         ],
         "habilidades": ["Sorte", "Pressão"],
-        "caracteristicas": ["Aura", "Faro", "Silêncio"]
+        "caracteristicas": ["Guelras"]
       },
       {
         "id": 2,
         "nome": "Umbreon",
-        "treinador": "Marcos",
-        "nature": "Adamant",
-        "tipo": ["Inseto", "Metal"],
-        "nivel": 51,
-        "pontos_de_vida": 256,
+        "treinador": "Feist Falcone",
+        "nature": "Jolly",
+        "tipo": ["Dark"],
+        "nivel": 50,
+        "pontos_de_vida": 280,
         "status": {
-          "saude": 13,
-          "ataque": 40,
-          "defesa": 17,
-          "atq_esp": 4,
-          "def_esp": 16,
-          "velocidade": 12
+          "saude": 20,
+          "ataque": 12,
+          "defesa": 21,
+          "atq_esp": 9,
+          "def_esp": 23,
+          "velocidade": 19
         },
         "evasao": {
-          "fisica": 7,
-          "especial": 7,
-          "veloz": 7
+          "fisica": 6,
+          "especial": 8,
+          "veloz": 9
+        },
+        "ataques": [
+          "Perseguição",
+          "Ataque Furtivo",
+          "Cauda de Ferro",
+          "Trapaça",
+          "Raio de Confusão",
+          "Guincho",
+          "Luar",
+          "Olhar Paralisante"
+        ],
+        "habilidades": ["Adaptabilidade", "Sincronizar"],
+        "caracteristicas": ["Faro", "Silêncio"]
+      },
+      {
+        "id": 3,
+        "nome": "Zoroark",
+        "treinador": "Feist Falcone",
+        "nature": "Impish",
+        "tipo": ["Dark"],
+        "nivel": 50,
+        "pontos_de_vida": 248,
+        "status": {
+          "saude": 12,
+          "ataque": 31,
+          "defesa": 13,
+          "atq_esp": 14,
+          "def_esp": 6,
+          "velocidade": 26
+        },
+        "evasao": {
+          "fisica": 5,
+          "especial": 6,
+          "veloz": 8
+        },
+        "ataques": [
+          "Emboscada",
+          "Perseguição",
+          "Garras Furiosas",
+          "Ataque Furtivo",
+          "Afiar",
+          "Provocação",
+          "Trapaça",
+          "Agilidade"
+        ],
+        "habilidades": ["Ilusão"],
+        "caracteristicas": ["Faro", "Hierarquia", "Silêncio"]
+      },
+      {
+        "id": 4,
+        "nome": "Weavile",
+        "treinador": "Feist Falcone",
+        "nature": "Jolly",
+        "tipo": ["Dark", "Gelo"],
+        "nivel": 50,
+        "pontos_de_vida": 268,
+        "status": {
+          "saude": 17,
+          "ataque": 27,
+          "defesa": 12,
+          "atq_esp": 3,
+          "def_esp": 14,
+          "velocidade": 30
+        },
+        "evasao": {
+          "fisica": 6,
+          "especial": 6,
+          "veloz": 9
         },
         "ataques": [
           "Metalizar Garra",
-          "Lâmina de Vento",
-          "Emboscada",
-          "Corte em X",
-          "Ataque de Asa",
-          "Ataque Rápido",
-          "Perseguição",
-          "Agilidade"
+          "Lançamento",
+          "Afiar",
+          "Furto",
+          "Guincho",
+          "Vento Gelado",
+          null,
+          null
         ],
-        "habilidades": ["Técnica", "Metal Leve"],
-        "caracteristicas": ["Aura", "Faro", "Silêncio"]
+        "habilidades": ["Gatuno", "Foco Interior"],
+        "caracteristicas": ["Geleira", "Silêncio"]
       }
     ]
   }

@@ -5,6 +5,9 @@ import Collapse from "react-bootstrap/Collapse";
 const BotaoAtaque = ({ ataque, data, pokemon }) => {
   const [open, setOpen] = React.useState(false);
 
+  if(ataque === null || data === null || pokemon === null) {
+    return
+  }
   return (
     <div>
       <Button
