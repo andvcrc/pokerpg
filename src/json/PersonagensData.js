@@ -10,21 +10,21 @@
       "Treinador",
       "Lutador"
     ],
-    nivel: 7,
+    nivel: 25,
     titulo_ou_afiliacao: null,
     status: {
-      saude: 11,
-      ataque: 17,
+      saude: 10,
+      ataque: 21,
       defesa: 10,
-      ataque_especial: 16,
-      defesa_especial: 9,
+      ataque_especial: 21,
+      defesa_especial: 10,
       velocidade: 10
     },
-    pontos_de_vida: 72,
+    pontos_de_vida: 144,
     dano_de_armas: null,
     evasao: {
       fisica: 2,
-      especial: 1,
+      especial: 2,
       veloz: 2
     },
     deslocamentos: {
