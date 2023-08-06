@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "nome": "Astaroth",
     "jogador": "André",
     "n_reg_pokedex": 64,
@@ -46,6 +47,7 @@
     ],
     "pokemons": [
       {
+        "id": 1,
         "nome": "Absol",
         "treinador": "Astaroth",
         "nature": "Adamant",
@@ -65,7 +67,6 @@
           "especial": 7,
           "veloz": 7
         },
-        "bonus_elemental": 10,
         "ataques": [
           "Mordida",
           "Lâmina de Vento",
@@ -80,6 +81,7 @@
         "caracteristicas": ["Aura", "Faro", "Silêncio"]
       },
       {
+        "id": 2,
         "nome": "Scizor",
         "treinador": "Astaroth",
         "nature": "Adamant",
@@ -99,7 +101,6 @@
           "especial": 7,
           "veloz": 7
         },
-        "bonus_elemental": 10,
         "ataques": [
           "Metalizar Garra",
           "Lâmina de Vento",
@@ -114,6 +115,7 @@
         "caracteristicas": null
       },
       {
+        "id": 3,
         "nome": "Marowak-Alola",
         "treinador": "Astaroth",
         "nature": "Adamant",
@@ -133,7 +135,6 @@
           "especial": 8,
           "veloz": 5
         },
-        "bonus_elemental": 10,
         "ataques": [
           "Cólera",
           "Açoite",
@@ -146,10 +147,79 @@
         ],
         "habilidades": ["Cabeça Dura", "Pararraios"],
         "caracteristicas": ["Alcance", "Hierarquia"]
+      },
+      {
+        "id": 4,
+        "nome": "Aegislash-Shield",
+        "treinador": "Astaroth",
+        "nature": "Careful",
+        "tipo": ["Metal", "Fantasma"],
+        "nivel": 51,
+        "pontos_de_vida": 260,
+        "status": {
+          "saude": 17,
+          "ataque": 5,
+          "defesa": 35,
+          "atq_esp": 3,
+          "def_esp": 37,
+          "velocidade": 6
+        },
+        "evasao": {
+          "fisica": 9,
+          "especial": 9,
+          "veloz": 2
+        },
+        "ataques": [
+          "Espada Sagrada",
+          "Escudo Real",
+          "Sombra Traiçoeira",
+          "Golpe Aéreo",
+          "Corte Furioso",
+          "Cabeça de Ferro",
+          "Dança das Espadas",
+          "Transferência"
+        ],
+        "habilidades": ["Guarda Baixa", "Posturas"],
+        "caracteristicas": ["Afundamento", "Obrigatoriedade"]
+      },
+      {
+        "id": 5,
+        "nome": "Mamoswine",
+        "treinador": "Astaroth",
+        "nature": "Lax",
+        "tipo": ["Terra", "Gelo"],
+        "nivel": 51,
+        "pontos_de_vida": 324,
+        "status": {
+          "saude": 30,
+          "ataque": 33,
+          "defesa": 21,
+          "atq_esp": 7,
+          "def_esp": 4,
+          "velocidade": 8
+        },
+        "evasao": {
+          "fisica": 9,
+          "especial": 5,
+          "veloz": 4
+        },
+        "ataques": [
+          "Terremoto",
+          "Resistência",
+          "Derrubada",
+          "Açoite",
+          "Estaca de Gelo",
+          "Lanças de Gelo",
+          "Farejar",
+          "Poder Antigo"
+        ],
+        "habilidades": ["Manto de Neve", "Gordura"],
+        "caracteristicas": ["Congelação", "Frio", "Geleira"]
       }
     ]
   },
   {
+    "id": 2,
     "nome": "Jin",
     "jogador": "Marcos",
     "n_reg_pokedex": 64,
@@ -196,6 +266,7 @@
     ],
     "pokemons": [
       {
+        "id": 1,
         "nome": "Weavile",
         "treinador": "Marcos",
         "nature": "Adamant",
@@ -215,7 +286,6 @@
           "especial": 7,
           "veloz": 7
         },
-        "bonus_elemental": 10,
         "ataques": [
           "Mordida",
           "Lâmina de Vento",
@@ -230,6 +300,7 @@
         "caracteristicas": ["Aura", "Faro", "Silêncio"]
       },
       {
+        "id": 2,
         "nome": "Umbreon",
         "treinador": "Marcos",
         "nature": "Adamant",
@@ -249,7 +320,6 @@
           "especial": 7,
           "veloz": 7
         },
-        "bonus_elemental": 10,
         "ataques": [
           "Metalizar Garra",
           "Lâmina de Vento",

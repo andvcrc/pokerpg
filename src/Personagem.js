@@ -1,7 +1,6 @@
 import React from "react";
 import data from "./json/Personagens.json";
 import Pokemon from "./Pokemon";
-import Select from "react-select";
 
 const Personagem = () => {
   const [personagem, setPersonagem] = React.useState("");
@@ -33,7 +32,7 @@ const Personagem = () => {
           </option>
           {data.map((el) => {
             return (
-              <option key={el.nome} value={el.nome}>
+              <option key={el.id} value={el.nome}>
                 {el.nome}
               </option>
             );
@@ -76,7 +75,7 @@ const Personagem = () => {
                 {dataFilter[0].pokemons.map((el) => {
                   return (
                     <>
-                    <option key={el.nome} label={el.nome} value={el.nome}>
+                    <option key={el.id} label={el.nome} value={el.nome}>
                     </option>
                     </>
                   );

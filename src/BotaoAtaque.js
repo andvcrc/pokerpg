@@ -24,7 +24,7 @@ const BotaoAtaque = ({ ataque, data, pokemon }) => {
                 <>
                   {" "}
                   +{" "}
-                  <span style={{ color: "red" }}>{pokemon.status.atq_esp}</span>
+                  <span style={{ color: "aqua" }}>{pokemon.status.atq_esp}</span>
                 </>
               )}
               {data[0] && data[0].basal && data[0].basal === "Físico" && (
@@ -34,12 +34,12 @@ const BotaoAtaque = ({ ataque, data, pokemon }) => {
                   <span style={{ color: "red" }}>{pokemon.status.ataque}</span>
                 </>
               )}
-              {data[0] && pokemon.tipo.includes(data[0].tipo) && (
+              {data[0] && data[0] && data[0].dano && pokemon.tipo.includes(data[0].tipo) && (
                 <>
                   {" "}
                   +{" "}
                   <span style={{ color: "green" }}>
-                    {pokemon.bonus_elemental}
+                    {parseInt(pokemon.nivel/5)}
                   </span>
                 </>
               )}

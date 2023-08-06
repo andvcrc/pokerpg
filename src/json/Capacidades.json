@@ -1,0 +1,170 @@
+[
+  {
+    "nome": "Adesão",
+    "descricao": "Um pokémon com Adesão trata o terreno vertical como um Terreno Regular usando seu Deslocamento Terrestre para se deslocar verticalmente, mesmo que seja uma superfície lisa. O teto também é considerado um Terreno Regular para este pokémon da mesma forma."
+  },
+  {
+    "nome": "Afundamento",
+    "descricao": "um pokémon que afunda não pode nadar ou se mover em água. A cada rodada que esteja em água profunda o suficiente para estar submerso, ele começa a sufocar, ou seja, ele perde 25% de seus Pontos de Vida máximos. Se ele alcançar -100% dos Pontos de Vida devido a isso, ele começa a fazer Testes de Morte normalmente."
+  },
+  {
+    "nome": "Alcance",
+    "descricao": "Um pokémon com Alcance pode fazer ataques Corpo a Corpo em alvos a até cinco metros de distância dele. Normalmente, o Alcance adicional se deve a um dos seguintes motivos: o pokémon é muito grande; o pokémon possui membros que se alongam suficientemente para atacar a grandes distâncias; o pokémon possui métodos inerentes de atirar ou arremessar armas."
+  },
+  {
+    "nome": "Amorfia",
+    "descricao": "Amorfos não possuem uma forma consistente. Eles podem desfazer seu padrão como líquido e se reformar posteriormente. Eles podem esticar seu corpo e se condensar também. Ao fazer isso, um pokémon pode acessar lugares que outros não poderiam, passando através de uma fechadura ou de uma fresta se quiserem."
+  },
+  {
+    "nome": "Aura",
+    "descricao": "Pokémons que podem usar a Aura podem ler auras e também manipular sua própria aura. Todos os pokémons e humanos possuem auras, mas a maioria não pode acessá-las. Auras variam em coloração: quanto mais vívida é a cor (ou seja, menos clara e transparente), mais emoção domina aquela pessoa naquele momento; e quanto mais escura, mais intenções ruins aquela pessoa possui. A leitura de auras não permite ler mentes, mas auras são pessoais e visíveis mesmo na escuridão. O pokémon pode tornar sua própria aura aparente em coloração para outros, indicando sua intenção a pokémons e humanos, que instintivamente receberão as mesmas informações como se estivesse lendo a sua aura."
+  },
+  {
+    "nome": "Bruxaria",
+    "descricao": "um bruxo pode amaldiçoar pessoas e pokémons. Apenas merecedores da maldição podem recebê-la, e são considerados merecedores os traidores, os quebradores de promessas importantes, aqueles que cometeram grandes crimes e os causadores de catástrofes (mesmo acidentais). Uma criatura se torna um alvo válido de Bruxaria se ela estiver disposta a se sacrificar por um dos merecedores. A maldição pode assumir a forma de praticamente qualquer coisa. Se o alvo deixar de ser merecedor, ele se liberta da maldição. Isso normalmente requer redenção ou reparação por parte do alvo. Se uma criatura se voluntariou no lugar de um merecedor, apenas se o merecedor se redimir ela será libertada da maldição."
+  },
+  {
+    "nome": "Calor",
+    "descricao": "um pokémon com esta Capacidade é sempre quente ao toque."
+  },
+  {
+    "nome": "Camuflagem",
+    "descricao": "um pokémon com Camuflagem é um usuário avançado do Silêncio. Enquanto se desloca, a menos que ele propositadamente queira fazer barulho, ele não faz nenhum som. A menos que ele tenha usado um Golpe À Distância na rodada atual ou na anterior, Golpes À Distância não podem ter este pokémon como alvo se ele estiver em Terreno Acidentado ou se houver Terreno Acidentado entre ele e o atacante. Além disso, sempre que o pokémon com Camuflagem for alvo de um Golpe, a Dificuldade de Acurácia do atacante é aumentada em 2."
+  },
+  {
+    "nome": "Combustão",
+    "descricao": "um combustível pode produzir chamas. Ele pode controlar a intensidade e a quantidade das chamas criadas e podem fazer lufadas de fogo cujo tamanho pode ser desde a chama de um isqueiro a uma explosão grande o suficiente para engolfar uma árvore."
+  },
+  {
+    "nome": "Congelação",
+    "descricao": "um pokémon congelante pode mirar uma área no solo e transformá-la em Terreno Gelado usando sua Ação de Movimento durante seu turno. Ele pode fazer isso Rodada Sim Rodada Não e rola 1d20 para determinar a quantidade máxima de terreno transformado em Terreno Gelado: 1 1m; 6 5m; 9 7m; 12 10m; 15 15; 18 20m; 20 30m."
+  },
+  {
+    "nome": "Eletricidade",
+    "descricao": "Pokémons com esta Capacidade podem produzir eletricidade controlada e enviar correntes elétricas através de vários materiais condutores. Se um dispositivo elétrico é capaz de ser recarregado, um pokémon com Eletricidade pode recarregá-lo totalmente fazendo uma rolagem de 1d20. Se o resultado for 13 ou mais, ele tem sucesso em recarregar o dispositivo."
+  },
+  {
+    "nome": "Encolhimento",
+    "descricao": "Um pokémon que encolhe pode reduzir seu tamanho a até 75% do seu tamanho normal, sem que isso altere seu peso. Para acertar um pokémon encolhido, as Dificuldades de Acurácia são aumentadas em 3. Usar Encolhimento não é o mesmo que usar Minimizar."
+  },
+  {
+    "nome": "Escalada",
+    "descricao": "Um escalador trata o terreno vertical como um Terreno Regular usando seu Deslocamento Terrestre para se deslocar verticalmente, a menos que seja uma superfície lisa."
+  },
+  {
+    "nome": "Família",
+    "descricao": "um pokémon com esta Capacidade possui um dimorfismo sexual tão grande que os machos e fêmeas são classificados como espécies diferentes, mas são contados como de uma mesma espécie para fins de procriação, conforme a tabela abaixo, em que pokémons da mesma linha evolutiva e família estão incluídos na mesma linha: f Ilumise m Volbeat; f Latias m Latios; f Lunatone/Solrock m Solrock/Lunatone; f Miltank m Tauros; f Minun/ Plusle m Plusle/Minun; f Nidoran/Nidorina/Nidoqueen m Nidoran/Nidorino/Nidoking; f Smoochum/Jynx m Mime Jr./Mr. Mime; f Vullaby/Mandibuzz m Rufflet/Braviary. Como exceção se encontram Plusle e Minun, que podem ser machos e fêmeas igualmente e constituem uma só espécie, mas de polaridades elétricas opostas. Se um ovo dará origem a um Minun ou a um Plusle, pode nascer tanto macho quanto fêmea de qualquer uma das espécies. Outro par de exceções são Lunatone e Solrock, que são ambos são assexuados e da mesma família. Eles podem agir como machos ou fêmeas para fins de procriação quando gerando um pokémon com outro pokémon assexuado, como normalmente ocorre."
+  },
+  {
+    "nome": "Faro",
+    "descricao": "Os pokémons farejadores têm um forte olfato que eles podem usar para rastrear pokémons e humanos. Se este pokémon tiver farejado o pokémon ou o humano que ele deseja rastrear ou um pertence que esteve em contato com ele, é possível tentar perseguir esta presa. Para tanto, ele deve rolar 1d20. Se o resultado for 11 ou mais, ele encontra o odor e pode seguir a presa. É possível farejar um odor aleatório e segui-lo, mas o resultado da rolagem de 1d20 deve ser pelo menos 16. Para farejar um odor específico de alguém (um pokémon ou um humano) sem nenhum pertence ou sem tê-lo cheirado, o pokémon deve obter um resultado pelo menos 20. O pokémon farejador só pode usar seu Faro uma vez a cada hora."
+  },
+  {
+    "nome": "Fiação",
+    "descricao": "um pokémon fiador pode usar esta Capacidade consumindo sua Ação de Movimento. Um Deslocamento de Fio é usado quando um pokémon atira uma linha fina e forte (como de seda, de vinha ou de teia) até um ponto e se retrai através dela rapidamente, puxando-se até o objeto acertado inicialmente (ou puxando o objeto até si, caso o objeto seja mais leve que o pokémon). A linha de seda ou vinha pode alcançar até dez metros de comprimento. Se ela for atirada em uma criatura (um pokémon ou um humano), é necessário fazer um Teste de Acurácia com Dificuldade de Acurácia 6. Como o Deslocamento de Fio é feito consumindo sua Ação de Movimento, o pokémon ainda pode usar um Golpe em seu turno normalmente."
+  },
+  {
+    "nome": "Frio",
+    "descricao": "um pokémon com esta Capacidade é sempre frio ao toque"
+  },
+  {
+    "nome": "Geleira",
+    "descricao": "este pokémon trata Terreno Gelado como Terreno Regular se for vantajoso para ele."
+  },
+  {
+    "nome": "Guelras",
+    "descricao": "o pokémon respira embaixo d'água, podendo permanecer submerso quanto tempo quiser."
+  },
+  {
+    "nome": "Hierarquia",
+    "descricao": "Um pokémon com Hierarquia pertence instintivamente a uma estrutura social rígida e é naturalmente inclinado a tentar alcançar o topo desta estrutura. Os pokémons selvagens que são formas menos evoluídas deste Pokémon serão instantaneamente considerados Prestativos ao pokémon de forma mais evoluída, e o obedecerão dentro de suas limitações. Quando aplicada a pokémons que não evoluem, Hierarquia considera que os liderados são aqueles que possuem pelo menos 10 Níveis a menos que os líderes. Um pokémon Prestativo não pode ser ordenado a atacar sem motivo, e qualquer tentativa de capturá-lo falhará e fará o pokémon fugir. Contudo, mesmo um pokémon possuído por um humano que possua Hierarquia se submeterá à Hierarquia se encontrar uma forma mais evoluída de si – se possui mais de uma forma – ou se encontrar um pokémon com pelo menos dez Níveis a mais que ele – se for um pokémon que não evolui. Neste caso, o pokémon selvagem que possui poder sobre ele pode se tornar hostil e atacar tanto o próprio pokémon quanto o humano que questionar suas ordens, uma vez que ele espera que ser obedecido."
+  },
+  {
+    "nome": "Incubação",
+    "descricao": "um incubador pode manter um ovo em calor seguro com melhores condições que um humano. Os ovos mantidos com ele reduzem em duas horas diariamente o tempo necessário para eclodirem."
+  },
+  {
+    "nome": "Ininteligível",
+    "descricao": "ininteligíveis são pokémons que não podem ter suas mentes lidas."
+  },
+  {
+    "nome": "Intangibilidade",
+    "descricao": "Um pokémon intangível pode se deslocar através de Terreno Acidentado e de Terreno Bloqueador sem que eles prejudiquem seus Deslocamentos. Eles podem se tornar intangíveis e se mover através de paredes sólidas ou mesmo através de outros pokémons e humanos, mas só podem permanecer intangíveis por até 30 segundos (ou cinco rodadas) consecutivos antes de terem que se tornar tangíveis de novo e repetir o processo. Enquanto o pokémon está intangível, ele não pode usar Golpes durante aquela rodada."
+  },
+  {
+    "nome": "Invisibilidade",
+    "descricao": "pokémons que possuem a Capacidade Invisibilidade podem se tornar invisíveis. Eles não podem usar Golpes enquanto invisíveis, mas impõem um aumento de +4 às Dificuldades de Acurácia para ataques feitos contra ele. Quando um pokémon se torna invisível, ele só pode permanecer invisível por até 4 minutos. Depois de se tornar visível, ele deve esperar um número de minutos igual a 2 + o número de minutos que esteve invisível antes de se tornar invisível novamente."
+  },
+  {
+    "nome": "Luminar",
+    "descricao": "Um luminar pode emitir luz a partir de alguma porção de seu corpo. Dependendo das espécies selvagens locais, isso pode atrair pokémons ou os afastar."
+  },
+  {
+    "nome": "Magnetismo",
+    "descricao": "pokémons magnéticos podem manipular o magnetismo de ambientes. Eles podem repelir ou atrair metais ou ligas metálicas puxando-os até si ou empurrando-os para longe. Através dessa manipulação do magnetismo, eles também podem sentir o magnetismo terrestre e discernir o norte magnético."
+  },
+  {
+    "nome": "Manancial",
+    "descricao": "um manancial pode produzir água potável. Ele pode controlar a intensidade do jorro da água e sua quantidade, borrifando água singelamente ou mesmo atirando com a força de uma mangueira de incêndio."
+  },
+  {
+    "nome": "Materialização",
+    "descricao": "materializadores podem criar rochas a partir do nada. A rocha pode ser criada do tamanho de uma pedrinha ou até do tamanho de uma pessoas. Para cada 2,5 kg de rocha criada, o pokémon perde 2 Pontos de Vida. A rocha é formada adjacente ao pokémon e o pokémon não pode criar algo maior do que 25 kg por rodada. Ele cria a rocha usando sua Ação de Movimento da rodada."
+  },
+  {
+    "nome": "Obrigatoriedade",
+    "descricao": "esta Capacidade denota uma Habilidade que deve ser obrigatoriamente atribuída ao pokémon. Cada pokémon com Obrigatoriedade possuirá a Habilidade associada a ele descrita junto a esta Capacidade. Se o pokémon já possui Obrigatoriedade desde a sua primeira forma evolutiva, ele não tem direito a escolher sua Habilidade no Nível 1, devendo ficar com a Habilidade descrita junto à Capacidade Obrigatoriedade. Caso contrário, ele deve escolher a Habilidade no lugar de sua segunda Habilidade, assim que possível (no Nível 40), não sendo permitido escolher outra Habilidade senão ela."
+  },
+  {
+    "nome": "Onirismo",
+    "descricao": "Um onírico pode produzir o material onírico manipulado pela máquina do Hipnólogo."
+  },
+  {
+    "nome": "Presciência",
+    "descricao": "um presciente pode prever o futuro, contudo as previsões não estão sob a vontade dele. O Narrador determina como é a previsão (uma visão, um sonho, uma intuição, etc.) e dita as informações recebidas, que podem ser desde completamente vagas a diretamente úteis, de caso para caso, conforme a vontade do Narrador."
+  },
+  {
+    "nome": "Rebento",
+    "descricao": "Um pokémon com Rebento pode rapidamente influenciar o crescimento de plantas e da flora ao seu redor. Em seis segundos, um rebento pode fazer uma planta crescer um metro mais alta ou mais larga do que era. Através do uso de Rebento, os pokémons podem fazer as plantas crescerem a até 125% do tamanho normal que se tornariam naturalmente, criando versões maiores de plantas. Para cada duas rodadas (ou doze segundos) usando Rebento um pokémon deve sacrificar 1 Pontos de Vida. O uso de Rebento consome a Ação de Movimento do pokémon."
+  },
+  {
+    "nome": "Repeteco",
+    "descricao": "Wobbufett é um pokémon muito limitado quando se trata de sua variedade de Golpes, contudo ele pode usar os Golpes Contra-Ataque e Escudo Espelho como Golpes com Frequência Rodada Sim Rodada Não, em vez de Golpes com Frequência Por Encontro. Após o primeiro uso de Escudo Espelho ou de Contra-Ataque durante um encontro, ou seja, durante a segunda vez que usar Escudo Espelho ou durante a segunda vez que usar Contra-Ataque, Wobbufett reduz sua Defesa e sua Defesa Especial em 10. Esta penalidade só é efetiva para fins de calcular o dano causado por Escudo Espelho e por ContraAtaque a partir do segundo uso de cada um destes Golpes. A penalidade permanece até o fim do encontro. Se um Elixir for usado em Wobbufett, esta penalidade é totalmente anulada, como se o encontro tivesse começado naquele momento; e se um Magnificador for usado, o Golpe afetado por ele entre Contra-Ataque ou Escudo Espelho tem esta penalidade anulada como se o encontro tivesse começado naquele momento."
+  },
+  {
+    "nome": "Secreção",
+    "descricao": "Quando Shuckle estiver com uma fruta como item Mantido, depois de 24 horas sem a fruta ser consumida, ela será espremida e armazenada na casca do Shuckle. A partir daí, a fruta se tornará um Concentrado mantido pelo Shuckle, e pode ser removido. Este Concentrado possui todas as propriedades da fruta original, mas Pontos de Vida que seriam curados por aquela fruta agora são curados em quantidade dobrada. Se o Concentrado for deixado com o Shuckle por duas semanas, ele será convertido a um Doce Raro."
+  },
+  {
+    "nome": "Sedução",
+    "descricao": "Sedutores possuem ferormônios ou outros odores que são muito prazerosos. Eles podem atrair pokémons selvagens facilmente."
+  },
+  {
+    "nome": "Silêncio",
+    "descricao": "Um pokémon silencioso é excelente em se aproximar do inimigo para um ataque próximo. Enquanto se desloca, a menos que ele propositadamente queira fazer algum som, ele não faz nenhum barulho. A menos que ele tenha usado um Golpe À Distância na rodada atual ou na anterior, Golpes À Distância não podem ter este pokémon como alvo se ele estiver em Terreno Acidentado ou se houver Terreno Acidentado entre ele e o atacante."
+  },
+  {
+    "nome": "Telecinesia",
+    "descricao": "um pokémon telecinético pode mover objetos com sua mente. Eles podem usar a Telecinesia em objetos que não estejam mais distantes que um número de metros igual ao Nível do pokémon. O peso dos objetos não pode exceder 2,5 quilogramas multiplicado por seu Nível."
+  },
+  {
+    "nome": "Telepatia",
+    "descricao": ": Um pokémon telepata pode ler as mentes humanas e pokémons. Pokémons telepatas também podem projetar seus pensamentos para os seres humanos e pokémons. Estes só podem ler pensamentos superficiais, ou seja, aquilo que o indivíduo está pensando agora, e não memórias. O telepata não pode ler as mentes de pokémons cujas Inteligências sejam muito maiores ou muito menores que a Inteligência dele, de modo que uma diferença de mais que 1 de Inteligência já impossibilita a leitura mental. Lembrando que humanos são considerados com Inteligência 5."
+  },
+  {
+    "nome": "Térreo",
+    "descricao": "um pokémon térreo pode transformar o terreno ao seu redor para transformá-lo em Terreno Acidentado ou, se quiser, pode planificar Terreno Acidentado ao seu redor para transformá-lo em Terreno Regular. Ele o faz usando sua Ação de Movimento durante seu turno e pode fazê-lo Rodada Sim Rodada Não. Seu poder pode afetar até todos os quadrados adjacentes a ele."
+  },
+  {
+    "nome": "Tumefação",
+    "descricao": "Um pokémon que tumefaz pode expandir seu tamanho a até 125% do seu tamanho normal, sem que isso altere seu peso. Para acertar um pokémon inflado, as Dificuldades de Acurácia são reduzidas em 3, porém o pokémon se torna efetivamente um Terreno Bloqueador através do qual é impossível mirar."
+  },
+  {
+    "nome": "Vento",
+    "descricao": "o pokémon pode criar rajadas de vento. A força pode variar desde uma brisa leve a uma poderosa rajada de ar capaz de levantar objetos leves no ar ou de fornecer sustentação para uma calha."
+  },
+  {
+    "nome": "Virtualidade",
+    "descricao": "pokémons virtuais têm uma relação especial com dispositivos eletrônicos. Eles podem entrar em máquinas e viajar instantaneamente através de eletrônicos conectados através de quaisquer cabos que os conectem. Enquanto dentro de um dispositivo ou de um sistema de dispositivos conectados, estes pokémons podem ler os dados daqueles aparelhos uma vez Diária. Eles podem também tentar assumir o controle do dispositivo eletrônico ou da máquina uma vez por hora fazendo uma rolagem de 1d20. Se o resultado for 16 ou mais, eles assumem o controle daquele aparelho."
+  }
+]
