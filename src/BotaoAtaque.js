@@ -42,7 +42,7 @@ const BotaoAtaque = ({ ataque, data, pokemon }) => {
                   {" "}
                   +{" "}
                   <span style={{ color: "green" }}>
-                    {parseInt(pokemon.nivel/5)}
+                    {parseInt(pokemon.bonus_elemental)}
                   </span>
                 </>
               )}

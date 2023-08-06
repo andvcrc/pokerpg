@@ -74,7 +74,7 @@ const Pokemon = ({ pokemon }) => {
         <> | Especial: {pokemon.evasao.especial}</>
         <> | Veloz: {pokemon.evasao.veloz}</>
       </div>
-      <>Bônus Elemental: {parseInt(pokemon.nivel / 5)}</>
+      <>Bônus Elemental: {pokemon.bonus_elemental}</>
 
       <div className="row" style={{ marginTop: "20px" }}>
         <h4 style={{ marginBottom: "20px" }}>Habilidades</h4>

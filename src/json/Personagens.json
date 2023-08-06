@@ -67,6 +67,7 @@
           "especial": 7,
           "veloz": 7
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Mordida",
           "Lâmina de Vento",
@@ -101,6 +102,7 @@
           "especial": 7,
           "veloz": 7
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Metalizar Garra",
           "Lâmina de Vento",
@@ -135,6 +137,7 @@
           "especial": 8,
           "veloz": 5
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Cólera",
           "Açoite",
@@ -169,6 +172,7 @@
           "especial": 9,
           "veloz": 2
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Espada Sagrada",
           "Escudo Real",
@@ -203,6 +207,7 @@
           "especial": 5,
           "veloz": 4
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Terremoto",
           "Resistência",
@@ -298,6 +303,7 @@
           "especial": 5,
           "veloz": 9
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Retalhar",
           "Míssil Aquático",
@@ -332,6 +338,7 @@
           "especial": 8,
           "veloz": 9
         },
+        "bonus_elemental": 20,
         "ataques": [
           "Perseguição",
           "Ataque Furtivo",
@@ -366,6 +373,7 @@
           "especial": 6,
           "veloz": 8
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Emboscada",
           "Perseguição",
@@ -400,6 +408,7 @@
           "especial": 6,
           "veloz": 9
         },
+        "bonus_elemental": 10,
         "ataques": [
           "Metalizar Garra",
           "Lançamento",
