@@ -1,6 +1,7 @@
 import React from "react";
 import data from "./json/Personagens.json";
 import Pokemon from "./Pokemon";
+import feist_falcone from "./images/feist_falcone.jpg"
 
 const Personagem = () => {
   const [personagem, setPersonagem] = React.useState("");
@@ -41,6 +42,10 @@ const Personagem = () => {
 
         {dataFilter && (
           <>
+            <div className="row" style={{height:"500px", marginTop:"20px"}}>
+
+            <img src={feist_falcone} width={"100%"} height={"100%"} alt="Feist_Falcone" style={{objectFit:"cover", objectPosition:"top center"}}/>
+            </div>
             <h2 style={{ marginTop: "20px" }}>{dataFilter[0].nome}</h2>
             <h6>Nível: {dataFilter[0].nivel}</h6>
             <h6>
@@ -49,7 +54,7 @@ const Personagem = () => {
                 return <span key={el}> {el}</span>;
               })}
             </h6>
-            <p style={{ textAlign: "justify", marginTop: "20px" }}>
+            <p style={{ textAlign: "center", marginTop: "20px" }}>
               Talentos:{" "}
               {dataFilter[0].talentos.map((el) => {
                 return (
