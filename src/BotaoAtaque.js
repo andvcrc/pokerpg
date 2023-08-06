@@ -1,6 +1,5 @@
 import React from "react";
-import Button from "react-bootstrap/Button";
-import Collapse from "react-bootstrap/Collapse";
+import { Button, Collapse } from "react-bootstrap";
 
 const BotaoAtaque = ({ ataque, data, pokemon }) => {
   const [open, setOpen] = React.useState(false);

@@ -3,7 +3,7 @@ import BotaoAtaque from "./BotaoAtaque";
 import ataqueData from "./json/Ataques.json";
 import BotaoHabilidade from "./BotaoHabilidade";
 import habilidadesData from "./json/Habilidades.json";
-import Capacidades from "./Capacidades";
+import Capacidades from "./BotaoCapacidades";
 
 const Pokemon = ({ pokemon }) => {
   const [imagem, setImagem] = React.useState(null);

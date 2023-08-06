@@ -1,5 +1,4 @@
 import React from "react";
-import "./css/App.css";
 import Personagem from "./Personagem.js";
 
 function App() {

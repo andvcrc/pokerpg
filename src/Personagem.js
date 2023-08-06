@@ -8,9 +8,9 @@ const Personagem = () => {
   const [poke, setPoke] = React.useState(null);
 
   function handleChange({ target }) {
+    setPoke(null);
     setPersonagem(target.value);
     setDataFilter(data.filter((element) => element.nome === target.value));
-    console.log(dataFilter);
   }
 
   function handlePokemon({ target }) {
@@ -50,9 +50,14 @@ const Personagem = () => {
 
         {dataFilter && (
           <>
-            <div className="row" style={{height:"500px", marginTop:"20px"}}>
-
-            <img src={dataFilter[0].imagem} width={"100%"} height={"100%"} alt="Feist_Falcone" style={{objectFit:"cover", objectPosition:"top center"}}/>
+            <div className="row" style={{ height: "500px", marginTop: "20px" }}>
+              <img
+                src={dataFilter[0].imagem}
+                width={"100%"}
+                height={"100%"}
+                alt="Feist_Falcone"
+                style={{ objectFit: "cover", objectPosition: "top center" }}
+              />
             </div>
 
             <h2 style={{ marginTop: "20px" }}>{dataFilter[0].nome}</h2>
@@ -70,7 +75,7 @@ const Personagem = () => {
                   <span>
                     {" "}
                     ({el}){" "}
-                    {/*Fazer um botão que compara o el com a lista de talentos e retorna o efeito quando clicar em um alert*/}
+                    {/*Fazer um botão que compara o el com a lista de talentos e retorna o efeito quando clicar em um collapse*/}
                   </span>
                 );
               })}
