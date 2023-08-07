@@ -1,6 +1,8 @@
 import React from "react";
 import data from "./json/PersonagensData.js";
 import Pokemon from "./Pokemon";
+import BotaoTalento from "./BotaoTalento.js";
+import Form from "react-bootstrap/Form";
 
 const Personagem = () => {
   const [personagem, setPersonagem] = React.useState("");
@@ -21,7 +23,7 @@ const Personagem = () => {
     <div
       className="card"
       style={{
-        maxWidth: "36rem",
+        width: "30rem",
         backgroundColor: "#121212",
         color: "white",
         marginTop: "20px",
@@ -30,23 +32,36 @@ const Personagem = () => {
     >
       <div className="card-body">
         <h5 className="card-title">Personagem:</h5>
-        <select
-          id="personagem"
-          value={personagem}
-          onChange={handleChange}
-          style={{ width: "200px", backgroundColor: "#212121", color: "white" }}
+        <div
+          className="row"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+          }}
         >
-          <option value="" disabled>
-            Selecione
-          </option>
-          {data.map((el) => {
-            return (
-              <option key={el.id} value={el.nome}>
-                {el.nome}
-              </option>
-            );
-          })}
-        </select>
+          <Form.Select
+            id="personagem"
+            value={personagem}
+            onChange={handleChange}
+            style={{
+              width: "300px",
+              backgroundColor: "#212121",
+              color: "white",
+            }}
+          >
+            <option value="" disabled>
+              Selecione
+            </option>
+            {data.map((el) => {
+              return (
+                <option key={el.id} value={el.nome}>
+                  {el.nome}
+                </option>
+              );
+            })}
+          </Form.Select>
+        </div>
 
         {dataFilter && (
           <>
@@ -68,46 +83,55 @@ const Personagem = () => {
                 return <span key={el}> {el}</span>;
               })}
             </h6>
-            <p style={{ textAlign: "center", marginTop: "20px" }}>
-              Talentos:{" "}
+
+            <div style={{ textAlign: "center", marginTop: "20px" }}>
+              <h3>Talentos: </h3>
               {dataFilter[0].talentos.map((el) => {
                 return (
-                  <span>
-                    {" "}
-                    ({el}){" "}
-                    {/*Fazer um botão que compara o el com a lista de talentos e retorna o efeito quando clicar em um collapse*/}
-                  </span>
+                  <>
+                    <BotaoTalento talento={el} />
+                  </>
                 );
               })}
-            </p>
+            </div>
+
             <>
-              <h3>POKEMONS</h3>
-              <select
-                id="poke"
-                value={poke !== null ? poke.nome : ""}
-                onChange={handlePokemon}
+              <h2 style={{ margin: "50px" }}>POKEMONS</h2>
+              <div
+                className="row"
                 style={{
-                  width: "200px",
-                  marginTop: "25px",
-                  backgroundColor: "#121212",
-                  color: "white",
+                  display: "flex",
+                  alignItems: "center",
+                  justifyContent: "center",
                 }}
               >
-                <option value="" disabled>
-                  Selecione
-                </option>
-                {dataFilter[0].pokemons.map((el) => {
-                  return (
-                    <>
-                      <option
-                        key={el.id}
-                        label={el.nome}
-                        value={el.nome}
-                      ></option>
-                    </>
-                  );
-                })}
-              </select>
+                <Form.Select
+                  id="poke"
+                  value={poke !== null ? poke.nome : ""}
+                  onChange={handlePokemon}
+                  style={{
+                    width: "300px",
+                    marginTop: "25px",
+                    backgroundColor: "#121212",
+                    color: "white",
+                  }}
+                >
+                  <option value="" disabled>
+                    Selecione
+                  </option>
+                  {dataFilter[0].pokemons.map((el) => {
+                    return (
+                      <>
+                        <option
+                          key={el.id}
+                          label={el.nome}
+                          value={el.nome}
+                        ></option>
+                      </>
+                    );
+                  })}
+                </Form.Select>
+              </div>
 
               <div style={{ marginTop: "30px" }}>
                 {poke !== null && <Pokemon pokemon={poke[0]} />}

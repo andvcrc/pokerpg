@@ -50,7 +50,7 @@
       "Crítica Construtiva",
       "Ataques Aprimorados +",
       "Já Ouvi Falar!",
-      "Galera Vê Só",
+      "Galera, Vê Só!",
       "Rotina de Exercícios",
       "Subversão Estatística",
       "Treinamento de Especialista",
@@ -66,7 +66,7 @@
       "Capataz",
       "Afirmação",
       "Mega!",
-      "Dê-me Espaço"
+      "Dê-Me Espaço!"
     ],
     pokemons: [
       {
@@ -340,7 +340,7 @@
       "Armas",
       "Pokedex",
       "Arma de Escolha",
-      "Dê-me Espaço",
+      "Dê-Me Espaço!",
       "Dê Tudo de Si!",
       "Canalizar",
       "Permissão",
@@ -352,7 +352,7 @@
       "Ataques Aprimorados",
       "Treinamento Aprimorado",
       "Aprimorar Golpes Elementais",
-      "Treinamento Especial",
+      "Treinamento Elemental",
       "Intimidar",
       "Foco",
       "Elementalismo",
