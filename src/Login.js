@@ -31,7 +31,7 @@ const Login = () => {
   }
 
   return (
-    <div>
+    <div style={{width:"20rem"}}>
       {show && (
         <Form>
           <Form.Group className="mb-3" controlId="user">
@@ -50,7 +50,7 @@ const Login = () => {
               placeholder="********"
             />
           </Form.Group>
-          <Button onClick={handleChange}>Entrar</Button>
+          <Button onClick={handleChange} style={{width:"10rem"}}>Entrar</Button>
         </Form>
       )}
       {personagem &&
