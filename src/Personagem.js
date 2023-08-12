@@ -22,8 +22,8 @@ const Personagem = ({ personagem }) => {
       }}
     >
       <div className="card-body">
-        <h5 className="card-title">Personagem:</h5>
 
+      {personagem && <h1 style={{ marginTop: "20px" }}>{personagem[0].nome}</h1>}
         {personagem && (
           <>
             <div className="row" style={{ height: "500px", marginTop: "20px" }}>
@@ -36,8 +36,7 @@ const Personagem = ({ personagem }) => {
               />
             </div>
 
-            <h2 style={{ marginTop: "20px" }}>{personagem[0].nome}</h2>
-            <h6>Nível: {personagem[0].nivel}</h6>
+            <h6 style={{ marginTop: "20px" }}>Nível: {personagem[0].nivel}</h6>
             <h6>
               Classe(s):{" "}
               {personagem[0].classe.map((el) => {

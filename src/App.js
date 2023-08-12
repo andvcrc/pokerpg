@@ -31,7 +31,7 @@ function App() {
             style={{
               alignItems: "center",
               justifyContent: "space-around",
-              width: "30rem",
+              width: "100vw",
               margin: "0px",
               padding: "0px"
             }}

@@ -11,8 +11,8 @@ const Login = () => {
   const [show, setShow] = React.useState(true);
 
   React.useEffect(() => {
-    if(personagem.length !== 0) setShow(!show)
-  }, [personagem])
+    if (personagem.length !== 0) setShow(!show);
+  }, [personagem]);
 
   function handleChange() {
     setPersonagem(
@@ -31,9 +31,9 @@ const Login = () => {
   }
 
   return (
-    <div style={{width:"15rem"}}>
+    <>
       {show && (
-        <Form>
+        <Form style={{ width: "15rem" }}>
           <Form.Group className="mb-3" controlId="user">
             <Form.Label>Usuário</Form.Label>
             <Form.Control
@@ -50,16 +50,20 @@ const Login = () => {
               placeholder="********"
             />
           </Form.Group>
-          <Button onClick={handleChange} style={{width:"8rem"}}>Entrar</Button>
+          <Button onClick={handleChange} style={{ width: "8rem" }}>
+            Entrar
+          </Button>
         </Form>
       )}
       {personagem &&
         personagem !== null &&
         personagem !== undefined &&
-        personagem.length !== 0 && <>
-        <Personagem personagem={personagem} />
-        </>}
-    </div>
+        personagem.length !== 0 && (
+          <>
+            <Personagem personagem={personagem} />
+          </>
+        )}
+    </>
   );
 };
 
