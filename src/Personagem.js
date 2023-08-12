@@ -1,22 +1,13 @@
 import React from "react";
-import data from "./json/PersonagensData.js";
 import Pokemon from "./Pokemon";
 import BotaoTalento from "./BotaoTalento.js";
 import Form from "react-bootstrap/Form";
 
-const Personagem = () => {
-  const [personagem, setPersonagem] = React.useState("");
-  const [dataFilter, setDataFilter] = React.useState(null);
+const Personagem = ({ personagem }) => {
   const [poke, setPoke] = React.useState(null);
 
-  function handleChange({ target }) {
-    setPoke(null);
-    setPersonagem(target.value);
-    setDataFilter(data.filter((element) => element.nome === target.value));
-  }
-
   function handlePokemon({ target }) {
-    setPoke(dataFilter[0].pokemons.filter((el) => el.nome === target.value));
+    setPoke(personagem[0].pokemons.filter((el) => el.nome === target.value));
   }
 
   return (
@@ -32,61 +23,31 @@ const Personagem = () => {
     >
       <div className="card-body">
         <h5 className="card-title">Personagem:</h5>
-        <div
-          className="row"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <Form.Select
-            id="personagem"
-            value={personagem}
-            onChange={handleChange}
-            style={{
-              width: "300px",
-              backgroundColor: "#212121",
-              color: "white",
-            }}
-          >
-            <option value="" disabled>
-              Selecione
-            </option>
-            {data.map((el) => {
-              return (
-                <option key={el.id} value={el.nome}>
-                  {el.nome}
-                </option>
-              );
-            })}
-          </Form.Select>
-        </div>
 
-        {dataFilter && (
+        {personagem && (
           <>
             <div className="row" style={{ height: "500px", marginTop: "20px" }}>
               <img
-                src={dataFilter[0].imagem}
+                src={personagem[0].imagem}
                 width={"100%"}
                 height={"100%"}
-                alt="Feist_Falcone"
+                alt={personagem[0].nome}
                 style={{ objectFit: "cover", objectPosition: "top center" }}
               />
             </div>
 
-            <h2 style={{ marginTop: "20px" }}>{dataFilter[0].nome}</h2>
-            <h6>Nível: {dataFilter[0].nivel}</h6>
+            <h2 style={{ marginTop: "20px" }}>{personagem[0].nome}</h2>
+            <h6>Nível: {personagem[0].nivel}</h6>
             <h6>
               Classe(s):{" "}
-              {dataFilter[0].classe.map((el) => {
+              {personagem[0].classe.map((el) => {
                 return <span key={el}> {el}</span>;
               })}
             </h6>
 
             <div style={{ textAlign: "center", marginTop: "20px" }}>
               <h3>Talentos: </h3>
-              {dataFilter[0].talentos.map((el) => {
+              {personagem[0].talentos.map((el) => {
                 return (
                   <>
                     <BotaoTalento talento={el} />
@@ -119,7 +80,7 @@ const Personagem = () => {
                   <option value="" disabled>
                     Selecione
                   </option>
-                  {dataFilter[0].pokemons.map((el) => {
+                  {personagem[0].pokemons.map((el) => {
                     return (
                       <>
                         <option

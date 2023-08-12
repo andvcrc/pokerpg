@@ -4,9 +4,7 @@ import data from "./json/Talentos.js";
 
 const BotaoTalento = (talento) => {
   const [open, setOpen] = React.useState(false);
-  console.log(talento.talento);
   const talentoData = data.filter((el) => el.nome === talento.talento);
-  console.log(talentoData[0] && talentoData[0].nome);
   return (
     <div
       style={{

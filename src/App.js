@@ -1,5 +1,5 @@
 import React from "react";
-import Personagem from "./Personagem.js";
+import Login from "./Login.js";
 
 function App() {
   return (
@@ -36,7 +36,7 @@ function App() {
               padding: "0px",
             }}
           >
-            <Personagem />
+            <Login/>
           </div>
         </div>
       </section>

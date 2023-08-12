@@ -3,6 +3,8 @@
     id: 1,
     nome: "Astaroth",
     jogador: "André",
+    login: "bornconfused",
+    senha: "andrevic17",
     imagem: require("../images/astaroth.png"),
     n_reg_pokedex: 64,
     alinhamento: "Leal e Mau",
@@ -294,6 +296,8 @@
     nome: "Feist Falcone",
     imagem: require("../images/feist_falcone.jpg"),
     jogador: "Marcos",
+    login: "Arkwarden",
+    senha: "batata123",
     n_reg_pokedex: 64,
     alinhamento: "Leal e Mau",
     classe: [
