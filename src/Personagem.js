@@ -18,7 +18,7 @@ const Personagem = ({ personagem }) => {
         color: "white",
         marginTop: "20px",
         marginBottom: "20px",
-        width:"100vw",
+        width:"100%",
         maxWidth:"30rem"
       }}
     >
