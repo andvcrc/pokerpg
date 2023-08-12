@@ -33,7 +33,7 @@ function App() {
               justifyContent: "space-around",
               maxWidth: "90%",
               margin: "0px",
-              padding: "0px",
+              padding: "0px"
             }}
           >
             <Login/>

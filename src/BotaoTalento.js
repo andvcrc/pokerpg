@@ -13,6 +13,7 @@ const BotaoTalento = (talento) => {
         alignItems: "center",
         justifyContent: "center",
         marginBottom: "5px",
+        width: "100%"
       }}
     >
       <Button

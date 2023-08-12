@@ -14,7 +14,6 @@ const Personagem = ({ personagem }) => {
     <div
       className="card"
       style={{
-        width: "30rem",
         backgroundColor: "#121212",
         color: "white",
         marginTop: "20px",
