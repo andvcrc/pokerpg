@@ -541,6 +541,279 @@
         ]
       }
     ]
+  },
+  {
+    id: 3,
+    nome: "Mestre",
+    imagem: require("../images/bivalva.jpeg"),
+    jogador: "João Pedro",
+    login: "bivalva",
+    senha: "karlakssx3",
+    n_reg_pokedex: 1,
+    alinhamento: "Leal e Mau",
+    classe: ["Treinador"],
+    nivel: '???',
+    titulo_ou_afiliacao: null,
+    status: {
+      saude: 13,
+      ataque: 16,
+      defesa: 17,
+      ataque_especial: 15,
+      defesa_especial: 12,
+      velocidade: 10
+    },
+    pontos_de_vida: 152,
+    dano_de_armas: "1d6+6",
+    evasao: {
+      fisica: 3,
+      especial: 2,
+      veloz: 2
+    },
+    deslocamentos: {
+      terrestre: 5,
+      escavacao: 0,
+      natacao: 4,
+      subaquatico: 3,
+      voo: 0
+    },
+    pericias: [],
+    talentos: [
+      "Armas",
+      "Pokedex",
+      "Arma de Escolha",
+      "Dê-Me Espaço!",
+      "Dê Tudo de Si!",
+      "Ataques Aprimorados",
+      "Crítica Construtiva",
+      "Mega!",
+      "Transpassar"
+    ],
+    pokemons: [
+      {
+        id: 1,
+        nome: "Chandelure",
+        treinador: "Mestre",
+        nature: "Modest",
+        tipo: [
+          "Fogo",
+          "Fantasma"
+        ],
+        nivel: 70,
+        pontos_de_vida: 304,
+        status: {
+          saude: 6,
+          ataque: 4,
+          defesa: 29,
+          atq_esp: 47,
+          def_esp: 14,
+          velocidade: 23
+        },
+        evasao: {
+          fisica: 9,
+          especial: 6,
+          veloz: 6
+        },
+        bonus_elemental: 14,
+        ataques: [
+          "Fumaça",
+          "Rajada de Chamas",
+          "Inferno",
+          "Selo",
+          "Esfera de Sombras",
+          "Maldição",
+          "Espiral de Fogo",
+          "Onda de Calor"
+        ],
+        habilidades: [
+          "Flamejante",
+          "Infiltração"
+        ],
+        caracteristicas: [
+          "Afundamento",
+          "Calor",
+          "Combustão",
+          "Encolhimento",
+          "Intangibilidade",
+          "Invisibilidade",
+          "Luminar"
+        ]
+      },
+      {
+        id: 2,
+        nome: "Wigglytuff",
+        treinador: "Mestre",
+        nature: "Preguiçosa",
+        tipo: [
+          "Normal",
+          "Fada"
+        ],
+        nivel: 70,
+        pontos_de_vida: 544,
+        status: {
+          saude: 66,
+          ataque: 7,
+          defesa: 15,
+          atq_esp: 9,
+          def_esp: 15,
+          velocidade: 3
+        },
+        evasao: {
+          fisica: 5,
+          especial: 7,
+          veloz: 5
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Desejo",
+          "Pancada",
+          "Estocagem",
+          "Engolir",
+          "Girobola",
+          "Pulso de Cura",
+          "Canção",
+          "Despertador"
+        ],
+        habilidades: [
+          "Tentação",
+          "Bisbilhoteiro"
+        ],
+        caracteristicas: [
+          "Tumefação"
+        ]
+      },
+      {
+        id: 3,
+        nome: "Gardevoir",
+        treinador: "Mestre",
+        nature: "Mild",
+        tipo: [
+          "Psíquico",
+          "Fada"
+        ],
+        nivel: 70,
+        pontos_de_vida: 308,
+        status: {
+          saude: 7,
+          ataque: 7,
+          defesa: 5,
+          atq_esp: 45,
+          def_esp: 42,
+          velocidade: 18
+        },
+        evasao: {
+          fisica: 3,
+          especial: 9,
+          veloz: 4
+        },
+        bonus_elemental: 14,
+        ataques: [
+          "Pulso de Cura",
+          "Previsão",
+          "Paranormal",
+          "Selo",
+          "Beijo Drenante",
+          "Devorar Sonhos",
+          "Desejo",
+          "Cativar"
+        ],
+        habilidades: [
+          "Sincronizar",
+          "Telepatia"
+        ],
+        caracteristicas: [
+          "Aura",
+          "Telecinesia",
+          "Telepatia"
+        ]
+      },
+      {
+        id: 4,
+        nome: "Slowking",
+        treinador: "Mestre",
+        nature: "Preguiçoso",
+        tipo: [
+          "Água",
+          "Psíquico"
+        ],
+        nivel: 70,
+        pontos_de_vida: 468,
+        status: {
+          saude: 47,
+          ataque: 8,
+          defesa: 28,
+          atq_esp: 10,
+          def_esp: 26,
+          velocidade: 1
+        },
+        evasao: {
+          fisica: 9,
+          especial: 9,
+          veloz: 1
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Pulso d'Água",
+          "Pulso de Cura",
+          "Paranormal",
+          "Curinga",
+          "Desabilitar",
+          "Sala das Maravilhas",
+          "Jato d'Água",
+          "Pisotear"
+        ],
+        habilidades: [
+          "Ritmo Próprio",
+          "Regeneração"
+        ],
+        caracteristicas: [
+          "Aura",
+          "Hierarquia",
+          "Telepatia"
+        ]
+      },
+      {
+        id: 5,
+        nome: "Wobbuffet",
+        treinador: "Mestre",
+        nature: "Ousado",
+        tipo: [
+          "Psíquico"
+        ],
+        nivel: 70,
+        pontos_de_vida: 524,
+        status: {
+          saude: 61,
+          ataque: 1,
+          defesa: 21,
+          atq_esp: 3,
+          def_esp: 21,
+          velocidade: 3
+        },
+        evasao: {
+          fisica: 6,
+          especial: 9,
+          veloz: 2
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Salvaguarda",
+          "Escudo Espelho",
+          "Contra-Ataque",
+          "Vínculo do Destino",
+          null,
+          null,
+          null,
+          null
+        ],
+        habilidades: [
+          "Identificação",
+          "Telepatia"
+        ],
+        caracteristicas: [
+          "Repeteco"
+        ]
+      }
+    ]
   }
 ];
 

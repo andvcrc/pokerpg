@@ -22,8 +22,6 @@ const Login = () => {
     );
   }
 
-  console.log('carregou')
-
   function handleLogin({ target }) {
     setLogin(target.value);
   }

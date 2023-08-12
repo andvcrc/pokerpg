@@ -1273,7 +1273,7 @@
     "basal": "Físico",
     "alcance": "Corpo a Corpo",
     "frequencia": "Rodada Sim Rodada Não",
-    "descricao": "Se o alvo estiver embaixo d’água, a Cascata aumenta seu Dano Basal em +1d12. Se o resultado do Teste de Acurácia for 17 ou mais, o alvo está Atordoado."
+    "descricao": "Se o alvo estiver embaixo d'água, a Cascata aumenta seu Dano Basal em +1d12. Se o resultado do Teste de Acurácia for 17 ou mais, o alvo está Atordoado."
   },
   {
     "nome": "Castigo",
@@ -4496,7 +4496,7 @@
     "basal": "Físico",
     "alcance": "Corpo a Corpo",
     "frequencia": "Por Encontro",
-    "descricao": "No momento que for fazer o Mergulho, o usuário submerge na água, de modo que é necessário haver um corpo d’água para se fazer o Mergulho. Isso é considerado seu preparo. Em seu turno seguinte, ele ascenderá à superfície usando os efeitos do Golpe. Enquanto submerso, o usuário não pode ser alvo de Golpes por inimigos na superfície do chão."
+    "descricao": "No momento que for fazer o Mergulho, o usuário submerge na água, de modo que é necessário haver um corpo d'água para se fazer o Mergulho. Isso é considerado seu preparo. Em seu turno seguinte, ele ascenderá à superfície usando os efeitos do Golpe. Enquanto submerso, o usuário não pode ser alvo de Golpes por inimigos na superfície do chão."
   },
   {
     "nome": "Metalizar Garra",
@@ -5511,7 +5511,7 @@
     "descricao": "No momento que declarar o uso deste Golpe, o usuário vai Pular a 10 metros no ar e seu turno acaba. Isso é considerado um efeito de Preparo. Na rodada seguinte, o usuário atinge o solo criando uma Explosão com valor conforme sua Categoria de Peso: 1 para Muito Leve,2 para Leve,3 para Médio,4 para Pesado,5 para Muito Pesado e 6 para Extremamente Pesado. Se o resultado do Teste de Acurácia for 17 ou mais, os alvos estão Paralisados."
   },
   {
-    "nome": "Pulso d’Água",
+    "nome": "Pulso d'Água",
     "tipo": "Água",
     "descritores": "Explosão 3",
     "acuracia": "2",
