@@ -19,7 +19,7 @@ const Capacidades = ({ caracteristicas }) => {
         className="btn btn-secondary"
         onClick={() => setOpen(!open)}
         key={caracteristica[0].nome}
-        style={{ width: "90%", margin: "3px" }}
+        style={{ width: "90%", margin: "3px", backgroundColor:"#1E5128" }}
       >
         {caracteristica[0].nome}
       </Button>

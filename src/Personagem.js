@@ -18,6 +18,8 @@ const Personagem = ({ personagem }) => {
         color: "white",
         marginTop: "20px",
         marginBottom: "20px",
+        maxWidth:"30rem",
+        minWidth:"30rem"
       }}
     >
       <div className="card-body">

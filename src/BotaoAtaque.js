@@ -13,7 +13,7 @@ const BotaoAtaque = ({ ataque, data, pokemon }) => {
         className="btn btn-secondary"
         onClick={() => setOpen(!open)}
         key={ataque}
-        style={{ width: "90%", margin: "3px" }}
+        style={{ width: "90%", margin: "3px", backgroundColor:"#950101" }}
       >
         {ataque}
       </Button>

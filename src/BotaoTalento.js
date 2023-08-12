@@ -19,7 +19,7 @@ const BotaoTalento = (talento) => {
       <Button
         className="btn btn-secondary"
         onClick={() => setOpen(!open)}
-        style={{ margin: "3px", width: "90%" }}
+        style={{ margin: "3px", width: "90%", backgroundColor:"#393E6F" }}
       >
         {talentoData[0].nome}
       </Button>
