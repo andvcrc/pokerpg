@@ -1,4 +1,4 @@
- const PersonagensData = [
+const PersonagensData = [
   {
     id: 1,
     nome: "Astaroth",
@@ -8,10 +8,7 @@
     imagem: require("../images/astaroth.png"),
     n_reg_pokedex: 64,
     alinhamento: "Leal e Mau",
-    classe: [
-      "Treinador",
-      "Lutador"
-    ],
+    classe: ["Treinador", "Lutador"],
     nivel: 25,
     titulo_ou_afiliacao: null,
     status: {
@@ -20,27 +17,23 @@
       defesa: 10,
       ataque_especial: 21,
       defesa_especial: 10,
-      velocidade: 10
+      velocidade: 10,
     },
     pontos_de_vida: 144,
     dano_de_armas: null,
     evasao: {
       fisica: 2,
       especial: 2,
-      veloz: 2
+      veloz: 2,
     },
     deslocamentos: {
       terrestre: 5,
       escavacao: 0,
       natacao: 4,
       subaquatico: 3,
-      voo: 0
+      voo: 0,
     },
-    pericias: [
-      "História",
-      "Investigação",
-      "Manha"
-    ],
+    pericias: ["História", "Investigação", "Manha"],
     talentos: [
       "Armas",
       "Pokedex",
@@ -68,7 +61,7 @@
       "Capataz",
       "Afirmação",
       "Mega!",
-      "Dê-Me Espaço!"
+      "Dê-Me Espaço!",
     ],
     pokemons: [
       {
@@ -76,9 +69,7 @@
         nome: "Absol",
         treinador: "Astaroth",
         nature: "Adamant",
-        tipo: [
-          "Dark"
-        ],
+        tipo: ["Dark"],
         nivel: 51,
         pontos_de_vida: 264,
         status: {
@@ -87,12 +78,12 @@
           defesa: 14,
           atq_esp: 4,
           def_esp: 16,
-          velocidade: 17
+          velocidade: 17,
         },
         evasao: {
           fisica: 5,
           especial: 7,
-          veloz: 7
+          veloz: 7,
         },
         bonus_elemental: 10,
         ataques: [
@@ -103,27 +94,17 @@
           "Dança das Espadas",
           "Corte Psíquico",
           "Multiplicar",
-          "Emboscada"
+          "Emboscada",
         ],
-        habilidades: [
-          "Sorte",
-          "Pressão"
-        ],
-        caracteristicas: [
-          "Aura",
-          "Faro",
-          "Silêncio"
-        ]
+        habilidades: ["Sorte", "Pressão"],
+        caracteristicas: ["Aura", "Faro", "Silêncio"],
       },
       {
         id: 2,
         nome: "Scizor",
         treinador: "Astaroth",
         nature: "Adamant",
-        tipo: [
-          "Inseto",
-          "Metal"
-        ],
+        tipo: ["Inseto", "Metal"],
         nivel: 51,
         pontos_de_vida: 256,
         status: {
@@ -132,12 +113,12 @@
           defesa: 17,
           atq_esp: 4,
           def_esp: 16,
-          velocidade: 12
+          velocidade: 12,
         },
         evasao: {
           fisica: 7,
           especial: 7,
-          veloz: 7
+          veloz: 7,
         },
         bonus_elemental: 10,
         ataques: [
@@ -148,23 +129,17 @@
           "Ataque de Asa",
           "Ataque Rápido",
           "Perseguição",
-          "Agilidade"
+          "Agilidade",
         ],
-        habilidades: [
-          "Técnica",
-          "Metal Leve"
-        ],
-        caracteristicas: null
+        habilidades: ["Técnica", "Metal Leve"],
+        caracteristicas: null,
       },
       {
         id: 3,
         nome: "Marowak-Alola",
         treinador: "Astaroth",
         nature: "Adamant",
-        tipo: [
-          "Fogo",
-          "Fantasma"
-        ],
+        tipo: ["Fogo", "Fantasma"],
         nivel: 51,
         pontos_de_vida: 260,
         status: {
@@ -173,12 +148,12 @@
           defesa: 20,
           atq_esp: 6,
           def_esp: 15,
-          velocidade: 9
+          velocidade: 9,
         },
         evasao: {
           fisica: 8,
           especial: 8,
-          veloz: 5
+          veloz: 5,
         },
         bonus_elemental: 10,
         ataques: [
@@ -189,26 +164,17 @@
           "Feitiço",
           "Fogo-Fátuo",
           "Onda de Calor",
-          "Trocar de Lugar"
+          "Trocar de Lugar",
         ],
-        habilidades: [
-          "Cabeça Dura",
-          "Pararraios"
-        ],
-        caracteristicas: [
-          "Alcance",
-          "Hierarquia"
-        ]
+        habilidades: ["Cabeça Dura", "Pararraios"],
+        caracteristicas: ["Alcance", "Hierarquia"],
       },
       {
         id: 4,
         nome: "Aegislash-Shield",
         treinador: "Astaroth",
         nature: "Careful",
-        tipo: [
-          "Metal",
-          "Fantasma"
-        ],
+        tipo: ["Metal", "Fantasma"],
         nivel: 51,
         pontos_de_vida: 260,
         status: {
@@ -217,12 +183,12 @@
           defesa: 35,
           atq_esp: 3,
           def_esp: 37,
-          velocidade: 6
+          velocidade: 6,
         },
         evasao: {
           fisica: 9,
           especial: 9,
-          veloz: 2
+          veloz: 2,
         },
         bonus_elemental: 10,
         ataques: [
@@ -233,26 +199,17 @@
           "Corte Furioso",
           "Cabeça de Ferro",
           "Dança das Espadas",
-          "Transferência"
+          "Transferência",
         ],
-        habilidades: [
-          "Guarda Baixa",
-          "Posturas"
-        ],
-        caracteristicas: [
-          "Afundamento",
-          "Obrigatoriedade"
-        ]
+        habilidades: ["Guarda Baixa", "Posturas"],
+        caracteristicas: ["Afundamento", "Obrigatoriedade"],
       },
       {
         id: 5,
         nome: "Mamoswine",
         treinador: "Astaroth",
         nature: "Lax",
-        tipo: [
-          "Terra",
-          "Gelo"
-        ],
+        tipo: ["Terra", "Gelo"],
         nivel: 51,
         pontos_de_vida: 324,
         status: {
@@ -261,12 +218,12 @@
           defesa: 21,
           atq_esp: 7,
           def_esp: 4,
-          velocidade: 8
+          velocidade: 8,
         },
         evasao: {
           fisica: 9,
           especial: 5,
-          veloz: 4
+          veloz: 4,
         },
         bonus_elemental: 10,
         ataques: [
@@ -277,19 +234,12 @@
           "Estaca de Gelo",
           "Lanças de Gelo",
           "Farejar",
-          "Poder Antigo"
+          "Poder Antigo",
         ],
-        habilidades: [
-          "Manto de Neve",
-          "Gordura"
-        ],
-        caracteristicas: [
-          "Congelação",
-          "Frio",
-          "Geleira"
-        ]
-      }
-    ]
+        habilidades: ["Manto de Neve", "Gordura"],
+        caracteristicas: ["Congelação", "Frio", "Geleira"],
+      },
+    ],
   },
   {
     id: 2,
@@ -300,12 +250,7 @@
     senha: "batata123",
     n_reg_pokedex: 64,
     alinhamento: "Leal e Mau",
-    classe: [
-      "Místico",
-      "Ilusionista",
-      "Treinador",
-      "Elementalista"
-    ],
+    classe: ["Místico", "Ilusionista", "Treinador", "Elementalista"],
     nivel: 25,
     titulo_ou_afiliacao: null,
     status: {
@@ -314,21 +259,21 @@
       defesa: 17,
       ataque_especial: 15,
       defesa_especial: 12,
-      velocidade: 10
+      velocidade: 10,
     },
     pontos_de_vida: 152,
     dano_de_armas: "1d6+6",
     evasao: {
       fisica: 3,
       especial: 2,
-      veloz: 2
+      veloz: 2,
     },
     deslocamentos: {
       terrestre: 5,
       escavacao: 0,
       natacao: 4,
       subaquatico: 3,
-      voo: 0
+      voo: 0,
     },
     pericias: [
       "Imunidade",
@@ -338,7 +283,7 @@
       "Investigação",
       "Empatia",
       "Manipulação",
-      "Furtividade"
+      "Furtividade",
     ],
     talentos: [
       "Armas",
@@ -364,7 +309,7 @@
       "Crítica Construtiva",
       "Mudança de Tipo",
       "Conversão",
-      "Mórfico"
+      "Mórfico",
     ],
     pokemons: [
       {
@@ -372,10 +317,7 @@
         nome: "Sharpedo",
         treinador: "Feist Falcone",
         nature: "Adamant",
-        tipo: [
-          "Dark",
-          "Àgua"
-        ],
+        tipo: ["Dark", "Àgua"],
         nivel: 50,
         pontos_de_vida: 248,
         status: {
@@ -384,12 +326,12 @@
           defesa: 9,
           atq_esp: 13,
           def_esp: 9,
-          velocidade: 20
+          velocidade: 20,
         },
         evasao: {
           fisica: 5,
           especial: 5,
-          veloz: 9
+          veloz: 9,
         },
         bonus_elemental: 10,
         ataques: [
@@ -400,24 +342,17 @@
           "Presa Venenosa",
           null,
           null,
-          null
+          null,
         ],
-        habilidades: [
-          "Aspereza",
-          "Explosão de Velocidade"
-        ],
-        caracteristicas: [
-          "Guelras"
-        ]
+        habilidades: ["Aspereza", "Explosão de Velocidade"],
+        caracteristicas: ["Guelras"],
       },
       {
         id: 2,
         nome: "Umbreon",
         treinador: "Feist Falcone",
         nature: "Jolly",
-        tipo: [
-          "Dark"
-        ],
+        tipo: ["Dark"],
         nivel: 50,
         pontos_de_vida: 280,
         status: {
@@ -426,12 +361,12 @@
           defesa: 21,
           atq_esp: 9,
           def_esp: 23,
-          velocidade: 19
+          velocidade: 19,
         },
         evasao: {
           fisica: 6,
           especial: 8,
-          veloz: 9
+          veloz: 9,
         },
         bonus_elemental: 20,
         ataques: [
@@ -442,25 +377,17 @@
           "Raio de Confusão",
           "Guincho",
           "Luar",
-          "Olhar Paralisante"
+          "Olhar Paralisante",
         ],
-        habilidades: [
-          "Adaptabilidade",
-          "Sincronizar"
-        ],
-        caracteristicas: [
-          "Faro",
-          "Silêncio"
-        ]
+        habilidades: ["Adaptabilidade", "Sincronizar"],
+        caracteristicas: ["Faro", "Silêncio"],
       },
       {
         id: 3,
         nome: "Zoroark",
         treinador: "Feist Falcone",
         nature: "Impish",
-        tipo: [
-          "Dark"
-        ],
+        tipo: ["Dark"],
         nivel: 50,
         pontos_de_vida: 248,
         status: {
@@ -469,12 +396,12 @@
           defesa: 13,
           atq_esp: 14,
           def_esp: 6,
-          velocidade: 26
+          velocidade: 26,
         },
         evasao: {
           fisica: 5,
           especial: 6,
-          veloz: 8
+          veloz: 8,
         },
         bonus_elemental: 10,
         ataques: [
@@ -485,26 +412,17 @@
           "Afiar",
           "Provocação",
           "Trapaça",
-          "Agilidade"
+          "Agilidade",
         ],
-        habilidades: [
-          "Ilusão"
-        ],
-        caracteristicas: [
-          "Faro",
-          "Hierarquia",
-          "Silêncio"
-        ]
+        habilidades: ["Ilusão"],
+        caracteristicas: ["Faro", "Hierarquia", "Silêncio"],
       },
       {
         id: 4,
         nome: "Weavile",
         treinador: "Feist Falcone",
         nature: "Jolly",
-        tipo: [
-          "Dark",
-          "Gelo"
-        ],
+        tipo: ["Dark", "Gelo"],
         nivel: 50,
         pontos_de_vida: 268,
         status: {
@@ -513,12 +431,12 @@
           defesa: 12,
           atq_esp: 3,
           def_esp: 14,
-          velocidade: 30
+          velocidade: 30,
         },
         evasao: {
           fisica: 6,
           especial: 6,
-          veloz: 9
+          veloz: 9,
         },
         bonus_elemental: 10,
         ataques: [
@@ -529,18 +447,12 @@
           "Guincho",
           "Vento Gelado",
           null,
-          null
+          null,
         ],
-        habilidades: [
-          "Gatuno",
-          "Foco Interior"
-        ],
-        caracteristicas: [
-          "Geleira",
-          "Silêncio"
-        ]
-      }
-    ]
+        habilidades: ["Gatuno", "Foco Interior"],
+        caracteristicas: ["Geleira", "Silêncio"],
+      },
+    ],
   },
   {
     id: 3,
@@ -552,7 +464,7 @@
     n_reg_pokedex: 1,
     alinhamento: "Leal e Mau",
     classe: ["Treinador"],
-    nivel: '???',
+    nivel: "???",
     titulo_ou_afiliacao: null,
     status: {
       saude: 13,
@@ -560,21 +472,21 @@
       defesa: 17,
       ataque_especial: 15,
       defesa_especial: 12,
-      velocidade: 10
+      velocidade: 10,
     },
     pontos_de_vida: 152,
     dano_de_armas: "1d6+6",
     evasao: {
       fisica: 3,
       especial: 2,
-      veloz: 2
+      veloz: 2,
     },
     deslocamentos: {
       terrestre: 5,
       escavacao: 0,
       natacao: 4,
       subaquatico: 3,
-      voo: 0
+      voo: 0,
     },
     pericias: [],
     talentos: [
@@ -586,7 +498,7 @@
       "Ataques Aprimorados",
       "Crítica Construtiva",
       "Mega!",
-      "Transpassar"
+      "Transpassar",
     ],
     pokemons: [
       {
@@ -594,10 +506,7 @@
         nome: "Chandelure",
         treinador: "Mestre",
         nature: "Modest",
-        tipo: [
-          "Fogo",
-          "Fantasma"
-        ],
+        tipo: ["Fogo", "Fantasma"],
         nivel: 70,
         pontos_de_vida: 304,
         status: {
@@ -606,12 +515,12 @@
           defesa: 29,
           atq_esp: 47,
           def_esp: 14,
-          velocidade: 23
+          velocidade: 23,
         },
         evasao: {
           fisica: 9,
           especial: 6,
-          veloz: 6
+          veloz: 6,
         },
         bonus_elemental: 14,
         ataques: [
@@ -622,12 +531,9 @@
           "Esfera de Sombras",
           "Maldição",
           "Espiral de Fogo",
-          "Onda de Calor"
+          "Onda de Calor",
         ],
-        habilidades: [
-          "Flamejante",
-          "Infiltração"
-        ],
+        habilidades: ["Flamejante", "Infiltração"],
         caracteristicas: [
           "Afundamento",
           "Calor",
@@ -635,18 +541,15 @@
           "Encolhimento",
           "Intangibilidade",
           "Invisibilidade",
-          "Luminar"
-        ]
+          "Luminar",
+        ],
       },
       {
         id: 2,
         nome: "Wigglytuff",
         treinador: "Mestre",
         nature: "Preguiçosa",
-        tipo: [
-          "Normal",
-          "Fada"
-        ],
+        tipo: ["Normal", "Fada"],
         nivel: 70,
         pontos_de_vida: 544,
         status: {
@@ -655,12 +558,12 @@
           defesa: 15,
           atq_esp: 9,
           def_esp: 15,
-          velocidade: 3
+          velocidade: 3,
         },
         evasao: {
           fisica: 5,
           especial: 7,
-          veloz: 5
+          veloz: 5,
         },
         bonus_elemental: 20,
         ataques: [
@@ -671,25 +574,17 @@
           "Girobola",
           "Pulso de Cura",
           "Canção",
-          "Despertador"
+          "Despertador",
         ],
-        habilidades: [
-          "Tentação",
-          "Bisbilhoteiro"
-        ],
-        caracteristicas: [
-          "Tumefação"
-        ]
+        habilidades: ["Tentação", "Bisbilhoteiro"],
+        caracteristicas: ["Tumefação"],
       },
       {
         id: 3,
         nome: "Gardevoir",
         treinador: "Mestre",
         nature: "Mild",
-        tipo: [
-          "Psíquico",
-          "Fada"
-        ],
+        tipo: ["Psíquico", "Fada"],
         nivel: 70,
         pontos_de_vida: 308,
         status: {
@@ -698,12 +593,12 @@
           defesa: 5,
           atq_esp: 45,
           def_esp: 42,
-          velocidade: 18
+          velocidade: 18,
         },
         evasao: {
           fisica: 3,
           especial: 9,
-          veloz: 4
+          veloz: 4,
         },
         bonus_elemental: 14,
         ataques: [
@@ -714,27 +609,17 @@
           "Beijo Drenante",
           "Devorar Sonhos",
           "Desejo",
-          "Cativar"
+          "Cativar",
         ],
-        habilidades: [
-          "Sincronizar",
-          "Telepatia"
-        ],
-        caracteristicas: [
-          "Aura",
-          "Telecinesia",
-          "Telepatia"
-        ]
+        habilidades: ["Sincronizar", "Telepatia"],
+        caracteristicas: ["Aura", "Telecinesia", "Telepatia"],
       },
       {
         id: 4,
         nome: "Slowking",
         treinador: "Mestre",
         nature: "Preguiçoso",
-        tipo: [
-          "Água",
-          "Psíquico"
-        ],
+        tipo: ["Água", "Psíquico"],
         nivel: 70,
         pontos_de_vida: 468,
         status: {
@@ -743,12 +628,12 @@
           defesa: 28,
           atq_esp: 10,
           def_esp: 26,
-          velocidade: 1
+          velocidade: 1,
         },
         evasao: {
           fisica: 9,
           especial: 9,
-          veloz: 1
+          veloz: 1,
         },
         bonus_elemental: 20,
         ataques: [
@@ -759,26 +644,17 @@
           "Desabilitar",
           "Sala das Maravilhas",
           "Jato d'Água",
-          "Pisotear"
+          "Pisotear",
         ],
-        habilidades: [
-          "Ritmo Próprio",
-          "Regeneração"
-        ],
-        caracteristicas: [
-          "Aura",
-          "Hierarquia",
-          "Telepatia"
-        ]
+        habilidades: ["Ritmo Próprio", "Regeneração"],
+        caracteristicas: ["Aura", "Hierarquia", "Telepatia"],
       },
       {
         id: 5,
         nome: "Wobbuffet",
         treinador: "Mestre",
         nature: "Ousado",
-        tipo: [
-          "Psíquico"
-        ],
+        tipo: ["Psíquico"],
         nivel: 70,
         pontos_de_vida: 524,
         status: {
@@ -787,12 +663,12 @@
           defesa: 21,
           atq_esp: 3,
           def_esp: 21,
-          velocidade: 3
+          velocidade: 3,
         },
         evasao: {
           fisica: 6,
           especial: 9,
-          veloz: 2
+          veloz: 2,
         },
         bonus_elemental: 20,
         ataques: [
@@ -803,18 +679,996 @@
           null,
           null,
           null,
-          null
+          null,
         ],
-        habilidades: [
-          "Identificação",
+        habilidades: ["Identificação", "Telepatia"],
+        caracteristicas: ["Repeteco"],
+      },
+      {
+        id: 6,
+        nome: "Hypno",
+        treinador: "Mestre",
+        nature: "Calm",
+        tipo: ["Psíquico"],
+        nivel: 80,
+        pontos_de_vida: 476,
+        status: {
+          saude: 39,
+          ataque: 5,
+          defesa: 7,
+          atq_esp: 27,
+          def_esp: 44,
+          velocidade: 7,
+        },
+        evasao: {
+          fisica: 4,
+          especial: 9,
+          veloz: 4,
+        },
+        bonus_elemental: 16,
+        ataques: [
+          "Psicochoque",
+          "Previsão",
+          "Feixe Psíquico",
+          "Corte Psíquico",
+          "Poder Secreto",
+          "Soco de Drenagem",
+          "Confusão",
+          "Paranormal",
+        ],
+        habilidades: ["Premonição", "Foco Interior"],
+        caracteristicas: ["Ininteligível", "Onirismo"],
+      },
+      {
+        id: 7,
+        nome: "Ursaring",
+        treinador: "Mestre",
+        nature: "Brave",
+        tipo: ["Normal"],
+        nivel: 80,
+        pontos_de_vida: 516,
+        status: {
+          saude: 49,
+          ataque: 55,
+          defesa: 8,
+          atq_esp: 30,
+          def_esp: 8,
+          velocidade: 4,
+        },
+        evasao: {
+          fisica: 5,
+          especial: 5,
+          veloz: 2,
+        },
+        bonus_elemental: 16,
+        ataques: [
+          "Garras Furiosas",
+          "Ataque Furtivo",
+          "Braço Martelo",
+          "Açoite",
+          "Aromatizar",
+          "Arremesso Sísmico",
+          "Mastigada",
+          "Tambor de Pança",
+        ],
+        habilidades: ["Ligeiro", "Tenacidade"],
+        caracteristicas: ["Faro"],
+      },
+      {
+        id: 8,
+        nome: "Kangaskhan",
+        treinador: "Mestre",
+        nature: "Adamant",
+        tipo: ["Normal"],
+        nivel: 80,
+        pontos_de_vida: 524,
+        status: {
+          saude: 51,
+          ataque: 52,
+          defesa: 8,
+          atq_esp: 2,
+          def_esp: 8,
+          velocidade: 9,
+        },
+        evasao: {
+          fisica: 5,
+          especial: 5,
+          veloz: 6,
+        },
+        bonus_elemental: 16,
+        ataques: [
+          "Soco Estonteante",
+          "Batida Dupla",
+          "Megassoco",
+          "Ultraje",
+          "Pelas Costas",
+          "Lapidação",
+          "Arremesso Circular",
+          "Garra Esmagadora",
+        ],
+        habilidades: ["Fragmentado", "Foco Interior"],
+        caracteristicas: ["Incubação"],
+      },
+      {
+        id: 9,
+        nome: "Slaking",
+        treinador: "Mestre",
+        nature: "Naughty",
+        tipo: ["Normal"],
+        nivel: 80,
+        pontos_de_vida: 540,
+        status: {
+          saude: 55,
+          ataque: 58,
+          defesa: 10,
+          atq_esp: 10,
+          def_esp: 5,
+          velocidade: 10,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 5,
+          veloz: 6,
+        },
+        bonus_elemental: 16,
+        ataques: [
+          "Mangual",
+          "Lançamento",
+          "Castigo",
+          "Braço Martelo",
+          "Contra-Ataque",
+          "Onda de Choques",
+          "Soco Focalizado",
+          "Relaxar",
+        ],
+        habilidades: ["Preguiça"],
+        caracteristicas: ["Hierarquia", "Obrigatoriedade"],
+      },
+      {
+        id: 10,
+        nome: "Exploud",
+        treinador: "Mestre",
+        nature: "Docile",
+        tipo: ["Normal"],
+        nivel: 80,
+        pontos_de_vida: 528,
+        status: {
+          saude: 52,
+          ataque: 29,
+          defesa: 4,
+          atq_esp: 29,
+          def_esp: 7,
+          velocidade: 7,
+        },
+        evasao: {
+          fisica: 5,
+          especial: 5,
+          veloz: 4,
+        },
+        bonus_elemental: 16,
+        ataques: [
+          "Vozeirão",
+          "Supersônico",
+          "Pisotear",
+          "Estrondo",
+          "Hiper-Raio",
+          "Braço Martelo",
+          "Arremesso Circular",
+          "Mastigada",
+        ],
+        habilidades: ["Cacofonia", "Fragmentado"],
+        caracteristicas: null,
+      },
+      {
+        id: 11,
+        nome: "Ditto",
+        treinador: "Mestre",
+        nature: "Bashful",
+        tipo: ["Normal"],
+        nivel: 80,
+        pontos_de_vida: 440,
+        status: {
+          saude: 20,
+          ataque: 20,
+          defesa: 20,
+          atq_esp: 20,
+          def_esp: 20,
+          velocidade: 20,
+        },
+        evasao: {
+          fisica: 5,
+          especial: 9,
+          veloz: 5,
+        },
+        bonus_elemental: 18,
+        ataques: ["Transformação"],
+        habilidades: ["Elasticidade", "Impostor"],
+        caracteristicas: ["Amorfia"],
+      },
+      {
+        id: 12,
+        nome: "Froslass",
+        treinador: "Mestre",
+        nature: "Naive",
+        tipo: ["Gelo", "Fantasma"],
+        nivel: 100,
+        pontos_de_vida: 428,
+        status: {
+          saude: 7,
+          ataque: 33,
+          defesa: 7,
+          atq_esp: 33,
+          def_esp: 5,
+          velocidade: 63,
+        },
+        evasao: {
+          fisica: 3,
+          especial: 5,
+          veloz: 9,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Granizo",
+          "Nevasca",
+          "Fogo-Fátuo",
+          "Vínculo do Destino",
+          "Beijo Drenante",
+          "Estilhaços de Gelo",
+          "Presa de Gelo",
+          "Zero Absoluto",
+        ],
+        habilidades: ["Friorento", "Anátema"],
+        caracteristicas: ["Congelação", "Frio", "Silêncio"],
+      },
+      {
+        id: 13,
+        nome: "Hydreigon",
+        treinador: "Mestre",
+        nature: "Mild",
+        tipo: ["Dark", "Dragão"],
+        nivel: 100,
+        pontos_de_vida: 536,
+        status: {
+          saude: 34,
+          ataque: 36,
+          defesa: 7,
+          atq_esp: 65,
+          def_esp: 9,
+          velocidade: 10,
+        },
+        evasao: {
+          fisica: 7,
+          especial: 5,
+          veloz: 6,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Pulso do Dragão",
+          "Ultraje",
+          "Elaborar",
+          "Investida do Dragão",
+          "Assustar",
+          "Meteoro do Dragão",
+          "Vozeirão",
+          "Fúria do Dragão",
+        ],
+        habilidades: ["Levitação"],
+        caracteristicas: ["Ininteligível"],
+      },
+      {
+        id: 14,
+        nome: "Spiritomb",
+        treinador: "Mestre",
+        nature: "Quiet",
+        tipo: ["Dark", "Fantasma"],
+        nivel: 100,
+        pontos_de_vida: 420,
+        status: {
+          saude: 5,
+          ataque: 9,
+          defesa: 11,
+          atq_esp: 61,
+          def_esp: 11,
+          velocidade: 2,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 7,
+          veloz: 2,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Raio de Confusão",
+          "Sombra Traiçoeira",
+          "Pulso Sombrio",
+          "Hipnose",
+          "Devorar Sonhos",
+          "Conspiração",
+          "Pesadelo",
+          "Vínculo do Destino",
+        ],
+        habilidades: ["Pressão", "Infiltração"],
+        caracteristicas: ["Ininteligível"],
+      },
+      {
+        id: 15,
+        nome: "Mismagius",
+        treinador: "Mestre",
+        nature: "Mild",
+        tipo: ["Fantasma"],
+        nivel: 100,
+        pontos_de_vida: 624,
+        status: {
+          saude: 56,
+          ataque: 6,
+          defesa: 4,
+          atq_esp: 63,
+          def_esp: 11,
+          velocidade: 11,
+        },
+        evasao: {
+          fisica: 2,
+          especial: 6,
+          veloz: 2,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Conspiração",
+          "Maldição",
+          "Vínculo do Destino",
+          "Joia do Poder",
+          "Sino da Cura",
+          "Travessia Fantasmagórica",
+          "Manto Mágico",
+          "Raio de Confusão",
+        ],
+        habilidades: ["Levitação"],
+        caracteristicas: ["Bruxaria", "Intangibilidade", "Invisibilidade"],
+      },
+      {
+        id: 16,
+        nome: "Banette ",
+        treinador: "Mestre",
+        nature: "Naughty",
+        tipo: ["Fantasma"],
+        nivel: 100,
+        pontos_de_vida: 424,
+        status: {
+          saude: 6,
+          ataque: 64,
+          defesa: 7,
+          atq_esp: 58,
+          def_esp: 4,
+          velocidade: 7,
+        },
+        evasao: {
+          fisica: 4,
+          especial: 4,
+          veloz: 4,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Fogo-Fátuo",
+          "Esfera de Sombras",
+          "Travessia Fantasmagórica",
+          "Sombra Traiçoeira",
+          "Pelas Costas",
+          "Feitiço",
+          "Maldição",
+          "Troca de Habilidades",
+        ],
+        habilidades: ["Insônia", "Anátema"],
+        caracteristicas: ["Intangibilidade", "Invisibilidade", "Silêncio"],
+      },
+      {
+        id: 17,
+        nome: "Cofagrigus",
+        treinador: "Mestre",
+        nature: "Relaxed",
+        tipo: ["Fantasma"],
+        nivel: 100,
+        pontos_de_vida: 420,
+        status: {
+          saude: 6,
+          ataque: 5,
+          defesa: 67,
+          atq_esp: 35,
+          def_esp: 36,
+          velocidade: 1,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 9,
+          veloz: 3,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Nevoeiro",
+          "Vento Nefasto",
+          "Olhar Paralisante",
+          "Vínculo do Destino",
+          "Rancor",
+          "Maldição",
+          "Cabeçada Zen",
+          "Selo",
+        ],
+        habilidades: ["Múmia"],
+        caracteristicas: ["Intangibilidade", "Invisibilidade"],
+      },
+      {
+        id: 18,
+        nome: "Darkrai",
+        treinador: "Mestre",
+        nature: "Timid",
+        tipo: ["Dark", "Fantasma"],
+        nivel: 100,
+        pontos_de_vida: 540,
+        status: {
+          saude: 5,
+          ataque: 34,
+          defesa: 9,
+          atq_esp: 66,
+          def_esp: 9,
+          velocidade: 38,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 8,
+          veloz: 9,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Hipnose",
+          "Pesadelo",
+          "Vazio",
+          "Pulso Sombrio",
+          "Devorar Sonhos",
+          "Soco de Drenagem",
+          "Multiplicar",
+          "Conspiração",
+        ],
+        habilidades: ["Pesadelos"],
+        caracteristicas: [
+          "Alcance",
+          "Aura",
+          "Intangibilidade",
+          "Invisibilidade",
+          "Onirismo",
+          "Telecinesia",
+          "Telepatia",
+        ],
+      },
+      {
+        id: 19,
+        nome: "Giratina",
+        treinador: "Mestre",
+        nature: "Mangual",
+        tipo: ["Dark", "Daragão"],
+        nivel: 100,
+        pontos_de_vida: 668,
+        status: {
+          saude: 67,
+          ataque: 37,
+          defesa: 10,
+          atq_esp: 37,
+          def_esp: 10,
+          velocidade: 7,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 9,
+          veloz: 8,
+        },
+        bonus_elemental: 20,
+        ataques: [
+          "Garra do Dragão",
+          "Vínculo do Destino",
+          "Feitiço",
+          "Bloquear Cura",
+          "Esfera de Aura",
+          "Poder Antigo",
+          "Força Sombria",
+          "Garra Sombria",
+        ],
+        habilidades: ["Pressão", "Telepatia"],
+        caracteristicas: [
+          "Aura",
+          "Telecinesia",
           "Telepatia"
         ],
-        caracteristicas: [
-          "Repeteco"
-        ]
-      }
-    ]
-  }
+      },
+      {
+        id: 20,
+        nome: "Beedrill",
+        treinador: "Mestre",
+        nature: "Lonely",
+        tipo: ["Inseto", "Veneno"],
+        nivel: 85,
+        pontos_de_vida: 448,
+        status: {
+          saude: 27,
+          ataque: 51,
+          defesa: 2,
+          atq_esp: 5,
+          def_esp: 8,
+          velocidade: 33,
+        },
+        evasao: {
+          fisica: 3,
+          especial: 5,
+          veloz: 9,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Espinhos Venenosos",
+          "Focar Energia",
+          "Aguilhão",
+          "Dança das Asas",
+          "Perfuração",
+          "Gigadreno",
+          "Garantia",
+          "Injetar Veneno",
+        ],
+        habilidades: ["Polvilhar", "Hipercorte"],
+        caracteristicas: ["Afundamento", "Escalada"],
+      },
+      {
+        id: 21,
+        nome: "Venomoth",
+        treinador: "Mestre",
+        nature: "Mild",
+        tipo: ["Inseto", "Veneno"],
+        nivel: 85,
+        pontos_de_vida: 368,
+        status: {
+          saude: 7,
+          ataque: 7,
+          defesa: 4,
+          atq_esp: 81,
+          def_esp: 8,
+          velocidade: 14,
+        },
+        evasao: {
+          fisica: 2,
+          especial: 5,
+          veloz: 4,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Esporos Paralisantes",
+          "Presa Venenosa",
+          "Pó Sonífero",
+          "Zumbido",
+          "Sanguessuga",
+          "Gigadreno",
+          "Picada",
+          "Pó Irritante",
+        ],
+        habilidades: ["Olhos Compostos", "Polvilhar"],
+        caracteristicas: ["Afundamento"],
+      },
+      {
+        id: 22,
+        nome: "Tentacruel",
+        treinador: "Mestre",
+        nature: "Calm",
+        tipo: ["Água", "Veneno"],
+        nivel: 85,
+        pontos_de_vida: 452,
+        status: {
+          saude: 28,
+          ataque: 5,
+          defesa: 7,
+          atq_esp: 8,
+          def_esp: 54,
+          velocidade: 35,
+        },
+        evasao: {
+          fisica: 5,
+          especial: 9,
+          veloz: 9,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Rajada de Bolhas",
+          "Salmoura",
+          "Hidrobomba",
+          "Onda de Lama",
+          "Injetar Veneno",
+          "Torção",
+          "Água Barrenta",
+          "Acupuntura",
+        ],
+        habilidades: ["Lodo", "Prato de Chuva"],
+        caracteristicas: ["Alcance", "Guelras"],
+      },
+      {
+        id: 23,
+        nome: "Granbull",
+        treinador: "Mestre",
+        nature: "Brave",
+        tipo: ["Fada"],
+        nivel: 85,
+        pontos_de_vida: 536,
+        status: {
+          saude: 49,
+          ataque: 59,
+          defesa: 8,
+          atq_esp: 6,
+          def_esp: 6,
+          velocidade: 3,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 5,
+          veloz: 6,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Derrubada",
+          "Rugido",
+          "Retribuição",
+          "Ultraje",
+          "Mastigada",
+          "Cabeçada",
+          "Sino da Cura",
+          "Mímica",
+        ],
+        habilidades: ["Intimidar", "Ligeiro"],
+        caracteristicas: ["Faro"],
+      },
+      {
+        id: 24,
+        nome: "Mawile",
+        treinador: "Mestre",
+        nature: "Brave",
+        tipo: ["Fada", "Metal"],
+        nivel: 85,
+        pontos_de_vida: 360,
+        status: {
+          saude: 5,
+          ataque: 56,
+          defesa: 49,
+          atq_esp: 6,
+          def_esp: 6,
+          velocidade: 4,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 5,
+          veloz: 3,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Defesa de Ferro",
+          "Brincadeira",
+          "Mastigada",
+          "Engolir",
+          "Estocagem",
+          "Agarrar",
+          "Arremesso Sísmico",
+          "Castigo",
+        ],
+        habilidades: ["Intimidar", "Força Bruta"],
+        caracteristicas: ["Sedução"],
+      },
+      {
+        id: 25,
+        nome: "Seviper",
+        treinador: "Mestre",
+        nature: "Naughty",
+        tipo: ["Veneno"],
+        nivel: 85,
+        pontos_de_vida: 368,
+        status: {
+          saude: 7,
+          ataque: 62,
+          defesa: 9,
+          atq_esp: 40,
+          def_esp: 4,
+          velocidade: 12,
+        },
+        evasao: {
+          fisica: 4,
+          especial: 4,
+          veloz: 6,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Intensificar Veneno",
+          "Vômito",
+          "Presa Venenosa",
+          "Torção",
+          "Enrolar",
+          "Arroto",
+          "Venochoque",
+          "Cauda Venenosa",
+        ],
+        habilidades: ["Troca de Pele", "Infiltração"],
+        caracteristicas: null,
+      },
+      {
+        id: 26,
+        nome: "Toxicroak",
+        treinador: "Mestre",
+        nature: "Lonely",
+        tipo: ["Veneno", "Lutador"],
+        nivel: 85,
+        pontos_de_vida: 372,
+        status: {
+          saude: 8,
+          ataque: 93,
+          defesa: 5,
+          atq_esp: 14,
+          def_esp: 7,
+          velocidade: 9,
+        },
+        evasao: {
+          fisica: 4,
+          especial: 5,
+          veloz: 6,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Venochoque",
+          "Pelas Costas",
+          "Adulação",
+          "Injetar Veneno",
+          "Picada Venenosa",
+          "Soco Dinâmico",
+          "Pancada Dupla",
+          "Superpresa",
+        ],
+        habilidades: ["Ressecado", "Toque Tóxico"],
+        caracteristicas: ["Adesão"],
+      },
+      {
+        id: 27,
+        nome: "Togekiss",
+        treinador: "Mestre",
+        nature: "Modest",
+        tipo: ["Fada", "Voador"],
+        nivel: 85,
+        pontos_de_vida: 376,
+        status: {
+          saude: 9,
+          ataque: 3,
+          defesa: 25,
+          atq_esp: 64,
+          def_esp: 27,
+          velocidade: 8,
+        },
+        evasao: {
+          fisica: 8,
+          especial: 9,
+          veloz: 6,
+        },
+        bonus_elemental: 16,
+        ataques: [
+          "Alvorada",
+          "Poder Secreto",
+          "Cântico da Sorte",
+          "Extrassensorial",
+          "Revelação",
+          "Presente",
+          "Ataque do Céu",
+          "Conspiração",
+        ],
+        habilidades: ["Graça Serena", "Sorte"],
+        caracteristicas: ["Aura", "Vento"],
+      },
+      {
+        id: 28,
+        nome: "Klefki",
+        treinador: "Mestre",
+        nature: "Rígida",
+        tipo: ["Fada", "Metal"],
+        nivel: 85,
+        pontos_de_vida: 356,
+        status: {
+          saude: 4,
+          ataque: 8,
+          defesa: 56,
+          atq_esp: 8,
+          def_esp: 49,
+          velocidade: 8,
+        },
+        evasao: {
+          fisica: 9,
+          especial: 9,
+          veloz: 3,
+        },
+        bonus_elemental: 17,
+        ataques: [
+          "Beijo Drenante",
+          "Tiro Espelhado",
+          "Sala Mágica",
+          "Selo",
+          "Bloquear Cura",
+          "Vento Encantado",
+          "Magnetização",
+          "Tormento",
+        ],
+        habilidades: ["Travessura", "Mágica"],
+        caracteristicas: ["Afundamento"],
+      },
+      {
+        id: 29,
+        nome: "Heracross",
+        treinador: "Mestre",
+        nature: "Bashful",
+        tipo: ["Inseto", "Lutador"],
+        nivel: 50,
+        pontos_de_vida: 232,
+        status: {
+          saude: 8,
+          ataque: 43,
+          defesa: 8,
+          atq_esp: 4,
+          def_esp: 20,
+          velocidade: 19,
+        },
+        evasao: {
+          fisica: 6,
+          especial: 6,
+          veloz: 9,
+        },
+        bonus_elemental: 10,
+        ataques: [
+          "Megachifre",
+          "Corpo a Corpo",
+          "Fúria",
+          "Quebra Telha",
+          "Derrubada",
+          "Golpe Aéreo",
+          "Agulhas",
+          "Arremesso Sísmico",
+        ],
+        habilidades: ["Tenacidade", "Fraqueza"],
+        caracteristicas: ["Escalada", "Hierarquia"],
+      },
+      {
+        id: 30,
+        nome: "Milotic",
+        treinador: "Mestre",
+        nature: "Naive",
+        tipo: ["Água"],
+        nivel: 50,
+        pontos_de_vida: 280,
+        status: {
+          saude: 20,
+          ataque: 6,
+          defesa: 8,
+          atq_esp: 40,
+          def_esp: 11,
+          velocidade: 20,
+        },
+        evasao: {
+          fisica: 5,
+          especial: 6,
+          veloz: 9,
+        },
+        bonus_elemental: 10,
+        ataques: [
+          "Cauda de Água",
+          "Cauda do Dragão",
+          "Hidrobomba",
+          "Pulso d'Água",
+          "Salvaguarda",
+          "Dança da Chuva",
+          "Nevoeiro",
+          null,
+        ],
+        habilidades: ["Obtusidade", "Tentação"],
+        caracteristicas: ["Guelras"],
+      },
+      {
+        id: 31,
+        nome: "Bisharp",
+        treinador: "Mestre",
+        nature: "Desesperado",
+        tipo: ["Dark", "Metal"],
+        nivel: 50,
+        pontos_de_vida: 240,
+        status: {
+          saude: 10,
+          ataque: 45,
+          defesa: 15,
+          atq_esp: 6,
+          def_esp: 12,
+          velocidade: 12,
+        },
+        evasao: {
+          fisica: 7,
+          especial: 5,
+          veloz: 6,
+        },
+        bonus_elemental: 10,
+        ataques: [
+          "Retalhar",
+          "Metalizar Garra",
+          "Cabeça de Ferro",
+          "Confisco",
+          "Corte Psíquico",
+          "Garantia",
+          "Ruído",
+          "Defesa de Ferro",
+        ],
+        habilidades: ["Foco Interior", "Pressão"],
+        caracteristicas: ["Aura", "Faro", "Hierarquia", "Silêncio"],
+      },
+      {
+        id: 32,
+        nome: "Houndoom",
+        treinador: "Mestre",
+        nature: "Bold",
+        tipo: ["Dark", "Fogo"],
+        nivel: 50,
+        pontos_de_vida: 252,
+        status: {
+          saude: 13,
+          ataque: 7,
+          defesa: 7,
+          atq_esp: 41,
+          def_esp: 13,
+          velocidade: 20,
+        },
+        evasao: {
+          fisica: 2,
+          especial: 5,
+          veloz: 7,
+        },
+        bonus_elemental: 10,
+        ataques: [
+          "Lança-Chamas",
+          "Mordida",
+          "Presa de Fogo",
+          "Fogo-Fátuo",
+          "Espancamento",
+          "Confisco",
+          "Trapaça",
+          "Farejar",
+        ],
+        habilidades: ["Madrugar", "Tensão"],
+        caracteristicas: ["Faro"],
+      },
+      {
+        id: 33,
+        nome: "Drapion",
+        treinador: "Mestre",
+        nature: "Excêntrico",
+        tipo: ["Dark", "Veneno"],
+        nivel: 50,
+        pontos_de_vida: 264,
+        status: {
+          saude: 16,
+          ataque: 15,
+          defesa: 29,
+          atq_esp: 3,
+          def_esp: 4,
+          velocidade: 17,
+        },
+        evasao: {
+          fisica: 8,
+          especial: 4,
+          veloz: 5,
+        },
+        bonus_elemental: 10,
+        ataques: [
+          "Presa Venenosa",
+          "Espinhos Venenosos",
+          "Venochoque",
+          "Agulhas Gêmeas",
+          "Afiar",
+          "Emboscada",
+          "Careta",
+          "Picada",
+        ],
+        habilidades: ["Franco-Atirador", "Visão Aguçada"],
+        caracteristicas: ["Escalada"],
+      },
+    ],
+  },
 ];
 
 export default PersonagensData;
