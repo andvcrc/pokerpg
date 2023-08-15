@@ -316,7 +316,7 @@ const PersonagensData = [
         nature: "Mild",
         tipo: ["Pedra"],
         nivel: 50,
-        pontos_de_vida: 256,
+        pontos_de_vida: 260,
         status: {
           saude: 15,
           ataque: 25,
@@ -386,7 +386,7 @@ const PersonagensData = [
         nature: "Estoico",
         tipo: ["Terra", "Grama"],
         nivel: 50,
-        pontos_de_vida: 292,
+        pontos_de_vida: 296,
         status: {
           saude: 24,
           ataque: 27,
@@ -456,7 +456,7 @@ const PersonagensData = [
         nature: "Modest",
         tipo: ["Pedra", "Terra"],
         nivel: 50,
-        pontos_de_vida: 284,
+        pontos_de_vida: 312,
         status: {
           saude: 28,
           ataque: 24,
