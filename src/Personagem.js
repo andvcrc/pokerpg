@@ -23,7 +23,7 @@ const Personagem = ({ personagem }) => {
     >
       <div className="card-body">
 
-      {personagem && <h1 style={{ marginTop: "20px" }}>{personagem[0].nome}</h1>}
+      {personagem && <h1 style={{ marginTop: "20px", fontWeight:"bold" }}>{personagem[0].nome}</h1>}
         {personagem && (
           <>
             <div className="row" style={{ height: "500px", marginTop: "20px" }}>
