@@ -18,12 +18,15 @@ const Personagem = ({ personagem }) => {
         color: "white",
         marginTop: "20px",
         marginBottom: "20px",
-        width:"30rem",
+        width: "30rem",
       }}
     >
       <div className="card-body">
-
-      {personagem && <h1 style={{ marginTop: "20px", fontWeight:"bold" }}>{personagem[0].nome}</h1>}
+        {personagem && (
+          <h1 style={{ marginTop: "20px", fontWeight: "bold" }}>
+            {personagem[0].nome}
+          </h1>
+        )}
         {personagem && (
           <>
             <div className="row" style={{ height: "500px", marginTop: "20px" }}>
@@ -43,6 +46,18 @@ const Personagem = ({ personagem }) => {
                 return <span key={el}> {el}</span>;
               })}
             </h6>
+
+            <div style={{ display: "flex", justifyContent: "space-around", alignItems: "center" }}>
+              <span>Saúde: {personagem[0].status.saude}</span>
+              <span>Ataque: {personagem[0].status.ataque}</span>
+              <span>Defesa: {personagem[0].status.defesa}</span>
+            </div>
+
+            <div style={{ display: "flex", justifyContent: "space-around" }}>
+              <span>Atk. Esp.: {personagem[0].status.ataque_especial}</span>
+              <span>Def. Esp.: {personagem[0].status.defesa_especial}</span>
+              <span>Velocidade: {personagem[0].status.velocidade}</span>
+            </div>
 
             <div style={{ textAlign: "center", marginTop: "20px" }}>
               <h3>Talentos: </h3>
